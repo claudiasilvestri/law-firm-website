@@ -1,0 +1,55 @@
+.blog-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background-color: var(--light-gray);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  color: var(--blue);
+  margin-bottom: 0.5rem;
+}
+
+.card small {
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--anthracite);
+  font-size: 0.85rem;
+}
+
+.card p {
+  color: var(--anthracite);
+  margin-bottom: 1rem;
+}
+
+.read-more-btn {
+  background-color: var(--beige);
+  color: var(--anthracite);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background-color: var(--light-blue);
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 1rem;
+  }
+
+  .read-more-btn {
+    width: 100%;
+  }
+}
