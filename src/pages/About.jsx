@@ -1,4 +1,5 @@
 import foto from "../assets/foto.jpg"; 
+import "../css/About.css"
 
 export default function ChiSono() {
   return (

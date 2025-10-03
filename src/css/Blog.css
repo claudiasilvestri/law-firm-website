@@ -5,7 +5,7 @@
 }
 
 .card {
-  background-color: var(--light-gray);
+  background-color: var(--grigio-chiaro);
   padding: 1.5rem;
   border-radius: 10px;
   margin-bottom: 1.5rem;
@@ -13,25 +13,25 @@
 }
 
 .card h2 {
-  color: var(--blue);
+  color: var(--blu-profondo);
   margin-bottom: 0.5rem;
 }
 
 .card small {
   display: block;
   margin-bottom: 1rem;
-  color: var(--anthracite);
+  color: var(--grigio-antracite);
   font-size: 0.85rem;
 }
 
 .card p {
-  color: var(--anthracite);
+  color: var(--grigio-antracite);
   margin-bottom: 1rem;
 }
 
 .read-more-btn {
   background-color: var(--beige);
-  color: var(--anthracite);
+  color: var(--grigio-antracite);
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -40,7 +40,7 @@
 }
 
 .read-more-btn:hover {
-  background-color: var(--light-blue);
+  background-color: var(--azzurro-chiaro);
   color: var(--white);
 }
 

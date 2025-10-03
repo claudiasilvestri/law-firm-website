@@ -1,0 +1,55 @@
+.chi-sono-section {
+  padding: 2rem;
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 1000px;
+}
+
+.chi-sono-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.chi-sono-foto img {
+  width: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.chi-sono-testo p {
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .chi-sono-section {
+    padding: 1rem;
+  }
+
+  .chi-sono-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .chi-sono-foto img {
+    width: 200px;
+  }
+
+  .chi-sono-testo p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .chi-sono-foto img {
+    width: 150px;
+  }
+
+  .chi-sono-section {
+    padding: 0.8rem;
+    margin: 1rem;
+  }
+}

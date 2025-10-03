@@ -1,15 +1,8 @@
 .footer {
-  background-color: var(--anthracite);
-  color: var(--white);
+  background-color: #4B4B4B; 
   text-align: center;
   padding: 1.5rem 2rem;
   margin-top: 2rem;
-  font-size: 0.9rem;
-}
-
-.footer p {
-  margin-bottom: 0.5rem;
-  color: var(--white);
 }
 
 .footer .socials {
@@ -19,13 +12,13 @@
 }
 
 .footer .socials a {
-  color: var(--beige);
+  color: #D9CBBE; 
   font-size: 1.3rem;
   transition: color 0.3s ease;
 }
 
 .footer .socials a:hover {
-  color: var(--light-blue);
+  color: #A3C1DA; 
 }
 
 @media (max-width: 480px) {
@@ -38,5 +31,7 @@
     font-size: 1.1rem;
   }
 }
+
+
 
 

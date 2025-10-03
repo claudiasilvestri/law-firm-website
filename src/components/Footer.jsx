@@ -1,9 +1,11 @@
-import "./Footer.css";
+import "../css/Footer.css";
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <p>© {new Date().getFullYear()} Studio Legale - Tutti i diritti riservati</p>
+      <p style={{ color: "#ffffff", fontSize: "0.9rem", marginBottom: "0.5rem" }}>
+        © {new Date().getFullYear()} Studio Legale - Tutti i diritti riservati
+      </p>
       <div className="socials">
         <a
           href="https://instagram.com"
@@ -25,6 +27,7 @@ export default function Footer() {
     </footer>
   );
 }
+
 
 
 
