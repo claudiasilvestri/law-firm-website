@@ -1,55 +1,96 @@
-.chi-sono-section {
+.about-section {
   padding: 2rem;
-  background-color: var(--light-gray);
-  border-radius: 10px;
-  margin: 2rem auto;
-  max-width: 1000px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: var(--anthracite);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.chi-sono-content {
+.about-section h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--blue);
+}
+
+.about-content {
   display: flex;
-  gap: 2rem;
   align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
-.chi-sono-foto img {
-  width: 250px;
+.about-foto {
+  flex: 0 0 250px; /* larghezza fissa per la foto */
+  max-width: 100%;
+}
+
+.about-foto img {
+  width: 100%;
+  height: auto;
   border-radius: 10px;
   object-fit: cover;
 }
 
-.chi-sono-testo p {
-  margin-bottom: 1.5rem;
-  line-height: 1.7;
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--blue);
+  font-size: 1.5rem;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about-text ul {
+  margin-bottom: 1rem;
+  padding-left: 1.2rem;
+}
+
+.about-text ul li {
+  margin-bottom: 0.5rem;
+}
+
+.button-accent {
+  display: inline-block;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button-accent:hover {
+  background-color: var(--light-blue);
 }
 
 @media (max-width: 768px) {
-  .chi-sono-section {
-    padding: 1rem;
-  }
-
-  .chi-sono-content {
+  .about-content {
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
   }
 
-  .chi-sono-foto img {
-    width: 200px;
+  .about-foto {
+    margin-bottom: 1rem;
   }
 
-  .chi-sono-testo p {
+  .about-text h2 {
     text-align: center;
   }
-}
 
-@media (max-width: 480px) {
-  .chi-sono-foto img {
-    width: 150px;
+  .about-text ul {
+    padding-left: 0;
+    text-align: center;
   }
 
-  .chi-sono-section {
-    padding: 0.8rem;
-    margin: 1rem;
+  .button-accent {
+    display: block;
+    text-align: center;
   }
 }

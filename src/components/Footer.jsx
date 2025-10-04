@@ -16,7 +16,7 @@ export default function Footer() {
           <i className="fa-brands fa-instagram"></i>
         </a>
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/federica-d-alessandro-lojacono-avvocatocivilista/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"

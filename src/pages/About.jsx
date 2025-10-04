@@ -1,30 +1,41 @@
-import foto from "../assets/foto.jpg"; 
-import "../css/About.css"
+import "../css/About.css";
 
-export default function ChiSono() {
+export default function About() {
   return (
-    <section className="chi-sono-section">
-      <h1>Chi sono</h1>
-      <div className="chi-sono-content">
-        <div className="chi-sono-foto">
-          <img src={foto} alt="Claudia Rossi" />
+    <section className="about-section">
+      <h1>Chi Sono | Federica D’Alessandro Lojacono</h1>
+      <div className="about-content">
+        <div className="about-foto">
+          <img
+            src="/assets/foto.jpg"
+            alt="Federica D’Alessandro Lojacono"
+          />
         </div>
-        <div className="chi-sono-testo">
+        <div className="about-text">
           <p>
-            Sono Claudia Rossi, avvocato civilista con esperienza in diritto civile, responsabilità medica e contrattualistica.  
-            Aiuto i miei clienti a tutelare i propri diritti con professionalità, trasparenza e competenza.
+            Mi chiamo <strong>Federica D’Alessandro Lojacono</strong>, avvocato civilista a Bari. 
+            Dal 2009 affianco privati e imprese con consulenze legali personalizzate, garantendo professionalità, trasparenza e risultati concreti.
           </p>
-          <a
-            href="/CV_ClaudiaRossi.pdf"
-            download
-            className="button-accent"
-          >
-            Scarica il mio CV
-          </a>
+          <h2>I miei valori</h2>
+          <ul>
+            <li><strong>Chiarezza:</strong> ogni complessità legale viene spiegata in modo semplice.</li>
+            <li><strong>Assistenza su misura:</strong> soluzioni personalizzate in base alle esigenze di ciascun cliente.</li>
+            <li><strong>Risultati concreti:</strong> strategie efficaci sia in ambito stragiudiziale sia giudiziale.</li>
+          </ul>
+          <p>
+            Sono anche qualificata come <strong>Gestore della Crisi da Sovraindebitamento</strong>, per supportare chi affronta difficoltà economiche.
+          </p>
+          <a href="/contatti" className="button-accent">Contattami</a>
         </div>
       </div>
     </section>
   );
 }
+
+
+
+
+
+
 
 

@@ -1,0 +1,43 @@
+.home-section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-section h1 {
+  color: var(--blue);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.home-section .button-accent {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.home-section .button-accent:hover {
+  background-color: var(--light-blue);
+}
+
+@media (max-width: 768px) {
+  .home-section h1 {
+    font-size: 1.5rem;
+  }
+  
+  .home-section p {
+    font-size: 1rem;
+  }
+}
