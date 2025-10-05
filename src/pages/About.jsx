@@ -25,12 +25,20 @@ export default function About() {
           <p>
             Sono anche qualificata come <strong>Gestore della Crisi da Sovraindebitamento</strong>, per supportare chi affronta difficoltà economiche.
           </p>
-          <a href="/contatti" className="button-accent">Contattami</a>
+          <a 
+            href="/assets/Attestato SMM.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="button-accent"
+          >
+            Visualizza Attestato SMM
+          </a>
         </div>
       </div>
     </section>
   );
 }
+
 
 
 

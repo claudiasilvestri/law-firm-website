@@ -11,7 +11,6 @@ export default function Home() {
       <p>
         Il mio approccio combina competenza tecnica e attenzione alla persona: ogni cliente riceve strategie su misura, orientate alla tutela dei propri diritti e alla risoluzione efficace dei problemi legali.
       </p>
-      <a href="/contatti" className="button-accent">Richiedi Consulenza</a>
     </section>
   );
 }
