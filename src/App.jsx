@@ -10,15 +10,19 @@ import Blog from "./pages/Blog";
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contatti />} />
-        <Route path="/blog" element={<Blog />} />
-      </Routes>
-      <Footer />
+      <div className="app-wrapper" style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+        <Navbar />
+        <div className="main-content" style={{ flex: 1 }}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contatti />} />
+            <Route path="/blog" element={<Blog />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
     </Router>
   );
 }

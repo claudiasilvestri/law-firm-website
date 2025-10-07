@@ -7,7 +7,7 @@ import "./css/Navbar.css";
 import "./css/Footer.css";
 import "./css/Blog.css";
 import "./css/About.css";
-import "./css/ContactForm.css";
+import "./css/Contact.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
