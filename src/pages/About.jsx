@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-content">
         <div className="about-foto">
           <img
-            src="/assets/foto.jpg"
+            src="/assets/Foto Federica.jpg"
             alt="Federica D’Alessandro Lojacono"
           />
         </div>
@@ -26,12 +26,12 @@ export default function About() {
             Sono anche qualificata come <strong>Gestore della Crisi da Sovraindebitamento</strong>, per supportare chi affronta difficoltà economiche.
           </p>
           <a 
-            href="/assets/Attestato SMM.pdf" 
+            href="/assets/CV Federica Dalessandro Lojacono.pdf" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="button-accent"
           >
-            Visualizza Attestato SMM
+            Visualizza CV
           </a>
         </div>
       </div>

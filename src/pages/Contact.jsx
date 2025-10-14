@@ -1,9 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "../css/Contact.css";
 import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
   const [loaded, setLoaded] = useState(false);
+
+  // Rimuove il ritardo nel caricamento della mappa
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
 
   return (
     <section className="contact-section">
@@ -29,7 +34,7 @@ export default function Contact() {
             <div>
               <i className="fa-solid fa-envelope-open-text"></i>
               <a href="mailto:dalessandrolojacono.federica@avvocatibari.legalmail.it">
-                federica.dalessandro@ordineavvocati.baripec.it
+                dalessandrolojacono.federica@avvocatibari.legalmail.it
               </a>
             </div>
             <div>
@@ -39,7 +44,7 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                LinkedIn
+                https://www.linkedin.com/in/federica-d-alessandro-lojacono/
               </a>
             </div>
           </div>
@@ -47,15 +52,11 @@ export default function Contact() {
 
         <div className="contact-layout">
           <div className="contact-map">
-            {!loaded && <div className="map-placeholder">Caricamento mappa...</div>}
             <iframe
               title="Studio Legale Federica D’Alessandro Lojacono"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.123456789!2d16.8723!3d41.1251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1347a3e1a1c2b1f1%3A0xabcdef123456789!2sPiazza%20Garibaldi%2049%2C%2070100%20Bari!5e0!3m2!1sit!2sit!4v1696375600000!5m2!1sit!2sit"
-              loading="lazy"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
-              className={loaded ? "loaded" : ""}
-              onLoad={() => setLoaded(true)}
             ></iframe>
           </div>
 
@@ -70,6 +71,7 @@ export default function Contact() {
     </section>
   );
 }
+
 
 
 
