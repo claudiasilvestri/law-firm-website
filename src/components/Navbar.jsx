@@ -10,7 +10,7 @@ export default function Navbar() {
         <li><Link to="/about">Chi Sono</Link></li>
         <li><Link to="/services">Servizi</Link></li>
         <li><Link to="/contact">Contatti</Link></li>
-        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/approfondimenti">Approfondimenti</Link></li>
       </ul>
     </nav>
   );

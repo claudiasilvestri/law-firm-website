@@ -4,8 +4,9 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
-import Contatti from "./pages/Contact"; 
-import Blog from "./pages/Blog";
+import Contact from "./pages/Contact"; 
+import Approfondimenti from "./pages/Approfondimenti";
+import ArticlePage from "./pages/ArticlePage"; 
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/contact" element={<Contatti />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/approfondimenti" element={<Approfondimenti />} />
+            <Route path="/approfondimenti/:id" element={<ArticlePage />} /> 
           </Routes>
         </div>
         <Footer />
@@ -28,5 +30,6 @@ function App() {
 }
 
 export default App;
+
 
 

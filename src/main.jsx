@@ -6,7 +6,7 @@ import App from "./App.jsx";
 import "./css/App.css";
 import "./css/Navbar.css";
 import "./css/Footer.css";
-import "./css/Blog.css";
+import "./css/Approfondimenti.css";
 import "./css/About.css";
 import "./css/Contact.css";
 

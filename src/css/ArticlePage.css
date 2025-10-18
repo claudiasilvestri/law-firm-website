@@ -1,0 +1,104 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.article-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.article-page h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.article-page small {
+  font-size: 1rem;
+  color: #555;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.article-img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 6px;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+.article-content h2,
+.article-content h3 {
+  font-family: 'Merriweather', serif;
+  color: #222;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.article-content p,
+.article-content li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.article-content ul,
+.article-content ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.button-accent {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.button-accent:hover {
+  background-color: #0056b3;
+}
+
+.other-articles {
+  margin-top: 40px;
+}
+
+.other-articles h3 {
+  font-family: 'Merriweather', serif;
+  margin-bottom: 15px;
+}
+
+.other-articles ul {
+  list-style: none;
+  padding: 0;
+}
+
+.other-articles li {
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .article-page {
+    padding: 15px;
+  }
+
+  .article-img {
+    max-width: 100%;
+  }
+}
+
+
+
