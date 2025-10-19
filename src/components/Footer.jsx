@@ -15,11 +15,12 @@ export default function Footer() {
         >
           Claudia Silvestri
         </a>
-        .
       </p>
     </footer>
   );
 }
+
+
 
 
 

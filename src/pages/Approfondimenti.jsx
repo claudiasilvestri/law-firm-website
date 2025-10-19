@@ -4,10 +4,25 @@ import { articles } from "../data/articles.js";
 import "../css/Approfondimenti.css";
 
 export default function Approfondimenti() {
+  const mesi = {
+    Gennaio: 0, Febbraio: 1, Marzo: 2, Aprile: 3,
+    Maggio: 4, Giugno: 5, Luglio: 6, Agosto: 7,
+    Settembre: 8, Ottobre: 9, Novembre: 10, Dicembre: 11
+  };
+
+  const sortedArticles = [...articles].sort((a, b) => {
+    const [gA, mA, yA] = a.date.split(" ");
+    const [gB, mB, yB] = b.date.split(" ");
+    const dateA = new Date(parseInt(yA), mesi[mA], parseInt(gA));
+    const dateB = new Date(parseInt(yB), mesi[mB], parseInt(gB));
+    return dateB - dateA;
+  });
+
   return (
     <section className="approfondimenti-section">
       <h1>Approfondimenti</h1>
-      {articles.map((article) => (
+
+      {sortedArticles.map((article) => (
         <div key={article.id} className="card">
           <img
             src={article.imageCard}
@@ -28,6 +43,8 @@ export default function Approfondimenti() {
     </section>
   );
 }
+
+
 
 
 

@@ -2,7 +2,7 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { articles } from "../data/articles.js";
-import "../css/ArticlePage.css"; // CSS dedicato al singolo articolo
+import "../css/ArticlePage.css"; 
 
 export default function ArticlePage() {
   const { id } = useParams();
@@ -20,7 +20,7 @@ export default function ArticlePage() {
       </Helmet>
 
       <img
-        src={article.imageArticle}
+        src={article.image} // usa l'immagine corretta dell'articolo
         alt={article.title}
         className="article-img"
       />
@@ -32,7 +32,7 @@ export default function ArticlePage() {
         dangerouslySetInnerHTML={{ __html: article.content }}
       />
 
-      <Link to="/Approfondimenti" className="button-accent">
+      <Link to="/approfondimenti" className="button-accent">
         Torna indietro
       </Link>
 
@@ -41,7 +41,7 @@ export default function ArticlePage() {
         <ul>
           {otherArticles.map((a) => (
             <li key={a.id}>
-              <Link to={`/Approfondimenti/${a.id}`}>{a.title}</Link>
+              <Link to={`/approfondimenti/${a.id}`}>{a.title}</Link>
             </li>
           ))}
         </ul>

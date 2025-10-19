@@ -1,15 +1,8 @@
-import { useEffect, useState } from "react";
+import React from "react";
 import "../css/Contact.css";
 import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
-  const [loaded, setLoaded] = useState(false);
-
-  // Rimuove il ritardo nel caricamento della mappa
-  useEffect(() => {
-    setLoaded(true);
-  }, []);
-
   return (
     <section className="contact-section">
       <div className="contact-container">
@@ -44,7 +37,7 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://www.linkedin.com/in/federica-d-alessandro-lojacono/
+                LinkedIn
               </a>
             </div>
           </div>
@@ -62,7 +55,7 @@ export default function Contact() {
 
           <div className="contact-form-wrapper">
             <div className="form-box">
-              <h3>Scrivici un messaggio</h3>
+              <h3>Scrivi un messaggio</h3>
               <ContactForm />
             </div>
           </div>

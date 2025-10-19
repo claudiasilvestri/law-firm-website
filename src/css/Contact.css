@@ -90,12 +90,6 @@
   border: 0;
   object-fit: cover;
   display: block;
-  opacity: 1;
-  transition: none;
-}
-
-.contact-map .map-placeholder {
-  display: none;
 }
 
 .form-box {
@@ -111,6 +105,59 @@
   color: var(--blu-profondo);
   margin-bottom: 1rem;
   text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--grigio-antracite);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.contact-form .message-counter {
+  font-size: 0.8rem;
+  color: var(--grigio-antracite);
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form .btn-cta {
+  padding: 0.7rem 1.2rem;
+  background-color: var(--blu-profondo);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-cta:hover {
+  background-color: var(--azzurro-chiaro);
+}
+
+.status-box {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.status-box.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-box.error {
+  background-color: #f8d7da;
+  color: #721c24;
 }
 
 @media (max-width: 900px) {
@@ -131,6 +178,7 @@
     font-size: 1.1rem;
   }
 }
+
 
 
 

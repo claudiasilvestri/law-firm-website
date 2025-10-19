@@ -13,80 +13,28 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: var(--white);
+  color: var(--grigio-antracite);
+}
+
 body {
-  font-family: Arial, sans-serif;   
-  background-color: var(--white);   
-  color: var(--grigio-antracite);   
   line-height: 1.6;
-  margin: 0;
-  padding: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
 }
 
 
-h1,h2,h3,h4,h5,h6 {
-  color: var(--blu-profondo);
-  margin-bottom: 1rem;
-  font-weight: 600;
-}
-
-p {
-  margin-bottom: 1rem;
-  color: var(--grigio-antracite);
-}
-
-a {
-  color: var(--blu-profondo);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: var(--azzurro-chiaro);
-  text-decoration: underline;
-}
-
-button {
-  background-color: var(--blu-profondo);
-  color: var(--white);
-  border: none;
-  padding: 0.7rem 1.2rem;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: var(--azzurro-chiaro);
-}
-
-.button-accent {
-  background-color: var(--beige);
-  color: var(--grigio-antracite);
-}
-
-.button-accent:hover {
-  background-color: var(--azzurro-chiaro);
-  color: var(--white);
-}
-
-input, textarea {
-  width: 100%;
-  padding: 0.5rem;
-  border: 1px solid var(--grigio-antracite);
-  border-radius: 5px;
-  margin-bottom: 1rem;
-}
-
-textarea {
-  resize: vertical;
-  min-height: 100px;
-}
-
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-}
 
 
 
