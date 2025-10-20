@@ -20,7 +20,7 @@ export default function ArticlePage() {
       </Helmet>
 
       <img
-        src={article.image} // usa l'immagine corretta dell'articolo
+        src={article.image} 
         alt={article.title}
         className="article-img"
       />

@@ -4,23 +4,32 @@ import "../css/Home.css";
 export default function Home() {
   return (
     <section className="home-section">
-      <h1>Avvocato Civilista a Bari</h1>
-      <p>
-        Sono <strong>Federica D’Alessandro Lojacono</strong>, con oltre dieci anni di esperienza
-        nel <strong>diritto civile</strong>, <strong>responsabilità medica</strong>,
-        <strong>diritto societario</strong> e <strong>recupero crediti</strong>.
-        Offro consulenza legale personalizzata e assistenza professionale, con strategie su misura
-        per ogni cliente.
-      </p>
-      <p>
-        Il mio approccio combina competenza tecnica e attenzione alla persona,
-        garantendo soluzioni efficaci e orientate alla tutela dei diritti di chi si rivolge al mio studio.
-      </p>
+      <section className="hero-section">
+        <h2>💼 Consulenza legale chiara, efficace e su misura</h2>
+        
+        <p>
+           ✍🏻 Sono <strong>Federica D’Alessandro Lojacono</strong>, <strong>avvocato civilista a Bari</strong>. 
+          Da oltre dieci anni affianco persone, professionisti e imprese nella gestione delle questioni legali, 
+          offrendo <strong>ascolto</strong>, <strong>chiarezza</strong> e <strong>trasparenza</strong>.
+        </p>
+        
+        <p>
+          Credo in un approccio fondato sul <strong>dialogo diretto</strong> e sulla costruzione di 
+          <strong> strategie personalizzate</strong>, perché ogni situazione richiede una <strong>soluzione concreta e sostenibile</strong>.
+        </p>
+        
+        <p>
+          Scegliere di affidarsi a me significa poter contare su un <strong>supporto legale costante</strong>, 
+          orientato alla <strong>prevenzione dei rischi</strong> e alla <strong>tutela dei propri diritti</strong>.
+        </p>
+      </section>
+
       <Link to="/contact" className="button-accent">
         Prenota Consulenza
       </Link>
     </section>
   );
 }
+
 
 
