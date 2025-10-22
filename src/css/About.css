@@ -1,26 +1,26 @@
 .about-section {
-  padding: 2rem;
-  max-width: 1200px;
+  padding: 1.5rem 2rem;
+  max-width: 1100px;
   margin: 0 auto;
   color: var(--anthracite);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-section h1 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
   color: var(--blue);
 }
 
 .about-content {
   display: flex;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
 }
 
 .about-foto {
-  flex: 0 0 250px; /* larghezza fissa per la foto */
+  flex: 0 0 250px;
   max-width: 100%;
 }
 
@@ -36,33 +36,37 @@
 }
 
 .about-text h2 {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
   color: var(--blue);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .about-text p {
-  margin-bottom: 1rem;
-  line-height: 1.6;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+  font-size: 0.9rem;
 }
 
 .about-text ul {
-  margin-bottom: 1rem;
-  padding-left: 1.2rem;
+  margin-bottom: 0.8rem;
+  padding-left: 1rem;
+  font-size: 0.9rem;
 }
 
 .about-text ul li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .button-accent {
-  display: inline-block;
+  display: block;
+  margin: 1rem auto 0 auto;
   background-color: var(--blue);
   color: var(--white);
   padding: 0.7rem 1.2rem;
   border-radius: 5px;
   text-decoration: none;
+  text-align: center;
   transition: background-color 0.3s ease;
 }
 
@@ -70,27 +74,38 @@
   background-color: var(--light-blue);
 }
 
-@media (max-width: 768px) {
-  .about-content {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .about-foto {
-    margin-bottom: 1rem;
-  }
-
-  .about-text h2 {
-    text-align: center;
-  }
-
-  .about-text ul {
-    padding-left: 0;
-    text-align: center;
-  }
 
   .button-accent {
     display: block;
     text-align: center;
   }
+
+  @media (max-width: 1024px) {
+  .about-section {
+    padding: 1.2rem 1.5rem;
+  }
+
+  .about-section h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .about-content {
+    gap: 1rem;
+  }
+
+  .about-text h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .about-text p,
+  .about-text ul {
+    font-size: 0.88rem;
+  }
 }
+
+
+
+
