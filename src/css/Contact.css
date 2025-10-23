@@ -1,6 +1,7 @@
+/* Contact Section */
 .contact-section {
-  background-color: var(--white);
   padding: 4rem 2rem;
+  background-color: var(--beige);
 }
 
 .contact-container {
@@ -25,10 +26,11 @@
 .contact-box {
   background: linear-gradient(145deg, #fff6dc, #f3d99c);
   border-radius: 12px;
+  border: 2px solid #d4af37;
   position: relative;
   padding: 1.5rem 2rem;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
   overflow: hidden;
   margin-bottom: 2.5rem;
   display: flex;
@@ -46,15 +48,21 @@
   right: -2px;
   bottom: -2px;
   border-radius: 14px;
-  background: linear-gradient(135deg, #ffeaa7, #f9d976);
+  background: linear-gradient(135deg, #fff6dc, #f3d99c);
   z-index: -1;
+  transition: background 0.3s ease;
 }
 
 .contact-box:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
 }
 
+.contact-box:hover::before {
+  background: linear-gradient(135deg, #fff8e5, #f5eed2);
+}
+
+/* Icone verticali */
 .contact-icons-vertical {
   display: flex;
   flex-direction: column;

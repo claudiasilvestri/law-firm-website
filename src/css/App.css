@@ -5,6 +5,7 @@
   --azzurro-chiaro: #A3C1DA;
   --beige: #D9CBBE;
   --white: #ffffff;
+  --neutral-bg: #f7f6f3; /* colore chiaro neutro per tutto il sito */
 }
 
 * {
@@ -16,7 +17,7 @@
 html, body {
   height: 100%;
   font-family: Arial, sans-serif;
-  background-color: var(--white);
+  background-color: var(--neutral-bg); /* sfondo uniforme su tutte le pagine */
   color: var(--grigio-antracite);
 }
 
@@ -28,14 +29,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: var(--neutral-bg); /* assicura che lo sfondo copra tutta la pagina */
 }
 
 .main-content {
   flex: 1;
+  background-color: transparent; /* lascia vedere lo sfondo globale */
 }
-
-
-
-
-
-

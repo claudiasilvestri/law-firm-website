@@ -34,8 +34,8 @@
 .services {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  row-gap: 2rem; 
-  column-gap: 1.5rem; 
+  row-gap: 2rem;
+  column-gap: 1.5rem;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -46,7 +46,9 @@
   border-radius: 12px;
   position: relative;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  border: 2px solid #d4af37; 
+  overflow: hidden;
 }
 
 .service::before {
@@ -57,8 +59,18 @@
   right: -2px;
   bottom: -2px;
   border-radius: 14px;
-  background: linear-gradient(135deg, #ffeaa7, #f9d976);
+  background: linear-gradient(135deg, #fff6dc, #f3d99c);
   z-index: -1;
+  transition: background 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.service:hover::before {
+  background: linear-gradient(135deg, #fff8e5, #f5eed2);
 }
 
 .service h2 {
@@ -114,7 +126,3 @@
     font-size: 1rem;
   }
 }
-
-
-
-

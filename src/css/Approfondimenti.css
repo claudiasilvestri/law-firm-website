@@ -1,21 +1,21 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
+  background-color: var(--beige);
 }
 
 .approfondimenti-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  padding: 20px;
-  background-color: #f9f9f9;
+  gap: 25px;
+  padding: 40px 20px;
 }
 
 .approfondimenti-section h1 {
   width: 100%;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-size: 2rem;
   font-family: 'Merriweather', serif;
   color: var(--blu-profondo);
@@ -27,52 +27,73 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 15px;
-  background-color: #fff;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 16px;
+  padding: 20px;
+  background: linear-gradient(145deg, #fff6dc, #f3d99c);
+  border: 2px solid #f9d976;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   min-height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #fff6dc, #f3d99c);
+  z-index: -1;
+  transition: background 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.card:hover::before {
+  background: linear-gradient(135deg, #fff8e5, #f5eed2);
 }
 
 .card-img {
   width: 100%;
   height: auto;
-  border-radius: 4px;
-  margin-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .card h2 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 10px 0 5px 0;
   font-family: 'Merriweather', serif;
+  color: var(--blu-profondo);
 }
 
 .card small {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: #555;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
 .card p {
   font-size: 1rem;
   color: #333;
-  margin-bottom: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 .button-accent {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #007bff;
-  color: #fff;
-  border-radius: 5px;
+  background-color: var(--blu-profondo);
+  color: var(--white);
+  border-radius: 6px;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -81,7 +102,7 @@ body {
 }
 
 .button-accent:hover {
-  background-color: #0056b3;
+  background-color: var(--azzurro-chiaro);
 }
 
 @media (max-width: 1024px) {
@@ -101,6 +122,10 @@ body {
     width: 90%;
   }
 }
+
+
+
+
 
 
 
