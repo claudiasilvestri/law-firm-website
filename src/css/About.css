@@ -2,15 +2,16 @@
   padding: 1.5rem 2rem;
   max-width: 1100px;
   margin: 0 auto;
-  color: var(--anthracite);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: transparent;
+  color: var(--grigio-scuro);
 }
 
 .about-section h1 {
+  font-family: 'Lora', serif;
   font-size: 1.7rem;
   margin-bottom: 1rem;
-  color: var(--blue);
+  color: var(--blu-profondo);
 }
 
 .about-content {
@@ -21,15 +22,16 @@
 }
 
 .about-foto {
-  flex: 0 0 250px;
+  flex: 0 0 250px; 
   max-width: 100%;
 }
 
 .about-foto img {
   width: 100%;
-  height: auto;
+  height: auto; 
   border-radius: 10px;
   object-fit: cover;
+  max-width: 250px;
 }
 
 .about-text {
@@ -37,22 +39,24 @@
 }
 
 .about-text h2 {
+  font-family: 'Lora', serif;
   margin-top: 0.8rem;
   margin-bottom: 0.4rem;
-  color: var(--blue);
+  color: var(--blu-profondo);
   font-size: 1.3rem;
 }
 
-.about-text p {
+.about-text p,
+.about-text ul {
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 0.8rem;
   line-height: 1.5;
   font-size: 0.9rem;
+  color: var(--grigio-scuro);
 }
 
 .about-text ul {
-  margin-bottom: 0.8rem;
   padding-left: 1rem;
-  font-size: 0.9rem;
 }
 
 .about-text ul li {
@@ -62,25 +66,22 @@
 .button-accent {
   display: block;
   margin: 1rem auto 0 auto;
-  background-color: var(--blue);
+  background-color: var(--blu-profondo);
   color: var(--white);
   padding: 0.7rem 1.2rem;
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   transition: background-color 0.3s ease;
 }
 
 .button-accent:hover {
-  background-color: var(--light-blue);
+  background-color: var(--azzurro-chiaro);
 }
 
-  .button-accent {
-    display: block;
-    text-align: center;
-  }
-
-  @media (max-width: 1024px) {
+@media (max-width: 1024px) {
   .about-section {
     padding: 1.2rem 1.5rem;
   }
@@ -104,3 +105,4 @@
     font-size: 0.88rem;
   }
 }
+

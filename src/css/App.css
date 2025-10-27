@@ -1,6 +1,6 @@
 :root {
   --blu-profondo: #1E3A5F;
-  --grigio-antracite: #4B4B4B;
+  --grigio-scuro: #333333;
   --grigio-chiaro: #E0E0E0;
   --azzurro-chiaro: #A3C1DA;
   --beige: #D9CBBE;
@@ -16,9 +16,9 @@
 
 html, body {
   height: 100%;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background: var(--neutral-bg);
-  color: var(--grigio-antracite);
+  color: var(--grigio-scuro);
   line-height: 1.6;
 }
 
@@ -32,10 +32,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: var(--neutral-bg); 
+  background: var(--neutral-bg);
 }
 
 .main-content {
   flex: 1;
-  background-color: transparent; 
+  background-color: transparent;
 }

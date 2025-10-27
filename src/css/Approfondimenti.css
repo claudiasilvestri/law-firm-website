@@ -1,6 +1,6 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--grigio-scuro);
   background-color: var(--beige);
 }
 
@@ -8,34 +8,35 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 25px;
-  padding: 40px 20px;
+  gap: 20px;
+  padding: 30px 20px;
 }
 
 .approfondimenti-section h1 {
   width: 100%;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-size: 2rem;
-  font-family: 'Merriweather', serif;
+  font-family: 'Lora', serif;
   color: var(--blu-profondo);
 }
 
 .card {
-  width: 300px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   border-radius: 16px;
-  padding: 20px;
+  padding: 15px;
   background: linear-gradient(145deg, #fff6dc, #f3d99c);
   border: 2px solid #f9d976;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  min-height: 450px;
+  min-height: 400px;
   position: relative;
   overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .card::before {
@@ -61,41 +62,41 @@ body {
 }
 
 .card-img {
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .card h2 {
-  font-size: 1.3rem;
-  margin: 10px 0 5px 0;
-  font-family: 'Merriweather', serif;
+  font-size: 1.2rem;
+  margin: 5px 0 5px 0;
+  font-family: 'Lora', serif;
   color: var(--blu-profondo);
 }
 
 .card small {
-  font-size: 0.95rem;
-  color: #555;
-  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: var(--grigio-scuro);
+  margin-bottom: 5px;
   display: block;
 }
 
 .card p {
-  font-size: 1rem;
-  color: #333;
-  line-height: 1.6;
-  margin-bottom: 20px;
+  font-size: 0.95rem;
+  color: var(--grigio-scuro);
+  line-height: 1.4;
+  margin-bottom: 10px;
 }
 
 .button-accent {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 6px 14px;
   background-color: var(--blu-profondo);
   color: var(--white);
   border-radius: 6px;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   transition: background-color 0.2s ease;
   margin-top: auto;
@@ -122,17 +123,3 @@ body {
     width: 90%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

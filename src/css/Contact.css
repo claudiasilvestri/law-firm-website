@@ -1,5 +1,7 @@
 .contact-section {
   padding: 4rem 2rem;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--grigio-scuro);
 }
 
 .contact-container {
@@ -8,6 +10,7 @@
 }
 
 .contact-main-title {
+  font-family: 'Lora', serif;
   color: var(--blu-profondo);
   font-size: 3rem;
   text-align: center;
@@ -15,7 +18,8 @@
 }
 
 .contact-subtitle {
-  color: var(--grigio-antracite);
+  font-family: 'Open Sans', sans-serif;
+  color: var(--grigio-scuro);
   text-align: center;
   font-size: 1.2rem;
   margin-bottom: 3rem;
@@ -36,6 +40,7 @@
   align-items: center;
   max-width: 600px;
   margin-inline: auto;
+  color: var(--grigio-scuro);
 }
 
 .contact-box::before {
@@ -82,7 +87,8 @@
 }
 
 .contact-icons-vertical a {
-  color: var(--grigio-antracite);
+  font-family: 'Open Sans', sans-serif;
+  color: var(--grigio-scuro);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -125,9 +131,12 @@
   background-color: rgba(255, 255, 255, 0.85);
   padding: 1.5rem;
   border: 2px solid #d4af37;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--grigio-scuro);
 }
 
 .form-box h3 {
+  font-family: 'Lora', serif;
   color: var(--blu-profondo);
   margin-bottom: 1rem;
   text-align: center;
@@ -137,10 +146,11 @@
 .contact-form textarea {
   width: 100%;
   padding: 0.5rem;
-  border: 1px solid var(--grigio-antracite);
+  border: 1px solid var(--grigio-scuro);
   border-radius: 5px;
   margin-bottom: 1rem;
-  font-family: inherit;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--grigio-scuro);
 }
 
 .contact-form textarea {
@@ -150,12 +160,13 @@
 
 .contact-form .message-counter {
   font-size: 0.8rem;
-  color: var(--grigio-antracite);
+  color: var(--grigio-scuro);
   text-align: right;
   margin-bottom: 0.5rem;
 }
 
 .contact-form .btn-cta {
+  font-family: 'Open Sans', sans-serif;
   padding: 0.7rem 1.2rem;
   background-color: var(--blu-profondo);
   color: var(--white);
@@ -174,6 +185,7 @@
   padding: 0.5rem;
   border-radius: 5px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .status-box.success {
@@ -204,3 +216,5 @@
     font-size: 1.1rem;
   }
 }
+
+

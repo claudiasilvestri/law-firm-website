@@ -2,13 +2,16 @@
   max-width: 1000px;
   margin: 3rem auto;
   padding: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--grigio-antracite);
 }
 
 .services-section h1 {
-  color: var(--blue);
+  color: var(--blu-profondo);
   font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
+  font-family: 'Lora', serif;
 }
 
 .services-intro {
@@ -16,19 +19,20 @@
   max-width: 800px;
   margin: 0 auto 3rem auto;
   padding: 0 1rem;
+  color: var(--grigio-antracite);
 }
 
 .services-intro h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: var(--blue);
+  color: var(--blu-profondo);
+  font-family: 'Lora', serif;
 }
 
 .services-intro p {
   font-size: 1.05rem;
   line-height: 1.8;
-  color: #444;
-  margin-bottom: 0.8rem;
+  color: var(--grigio-antracite);
 }
 
 .services {
@@ -49,6 +53,8 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
   border: 2px solid #d4af37; 
   overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--grigio-antracite);
 }
 
 .service::before {
@@ -74,15 +80,16 @@
 }
 
 .service h2 {
-  color: var(--blue);
+  color: var(--blu-profondo);
   margin-bottom: 0.8rem;
   font-size: 1.3rem;
+  font-family: 'Lora', serif;
 }
 
 .service p {
   line-height: 1.7;
-  color: #333;
   font-size: 1rem;
+  color: var(--grigio-antracite);
 }
 
 .services-section .button-accent {
@@ -90,15 +97,16 @@
   width: fit-content;
   margin: 2rem auto 0;
   padding: 0.8rem 1.5rem;
-  background-color: var(--blue);
+  background-color: var(--blu-profondo);
   color: var(--white);
   border-radius: 8px;
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
   transition: background-color 0.3s ease;
 }
 
 .services-section .button-accent:hover {
-  background-color: var(--light-blue);
+  background-color: var(--azzurro-chiaro);
 }
 
 @media (max-width: 768px) {

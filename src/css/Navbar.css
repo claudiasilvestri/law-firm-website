@@ -17,7 +17,7 @@
   font-weight: 600;
   font-size: 1.2rem;
   white-space: nowrap;
-  font-family: "Segoe UI Symbol", "Arial", sans-serif;
+  font-family: 'Lora', serif;
 }
 
 .nav-links {
@@ -35,6 +35,7 @@
   position: relative;
   text-decoration: none;
   padding-bottom: 4px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .nav-links a::after {
@@ -64,6 +65,7 @@
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
   font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
   transition: background-color 0.3s ease, transform 0.2s ease;
   text-decoration: none;
 }
@@ -98,3 +100,4 @@
     gap: 0.5rem;
   }
 }
+
