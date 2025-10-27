@@ -24,10 +24,10 @@ body {
   max-width: 800px;
   width: 100%;
   padding: 2rem;
-  border-radius: 20px;
+  border-radius: 12px;
   background: linear-gradient(145deg, #faf8f0, #f3e7c9);
   border: 2px solid #d4af37;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   box-sizing: border-box;
 }
 
@@ -35,7 +35,7 @@ body {
   font-family: 'Lora', serif;
   color: var(--blu-profondo);
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .text-box p {
@@ -43,7 +43,7 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   color: var(--grigio-scuro);
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .button-accent {
@@ -53,13 +53,17 @@ body {
   background-color: var(--blu-profondo);
   color: var(--white);
   border-radius: 5px;
+  border: 2px solid #d4af37;
   text-decoration: none;
   margin-top: 1.5rem;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .button-accent:hover {
   background-color: var(--azzurro-chiaro);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
@@ -80,3 +84,5 @@ body {
     font-size: 0.85rem;
   }
 }
+
+

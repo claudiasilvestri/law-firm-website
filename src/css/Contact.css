@@ -14,7 +14,7 @@
   color: var(--blu-profondo);
   font-size: 3rem;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .contact-subtitle {
@@ -22,7 +22,7 @@
   color: var(--grigio-scuro);
   text-align: center;
   font-size: 1.2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .contact-box {
@@ -31,7 +31,7 @@
   border: 2px solid #d4af37;
   position: relative;
   padding: 1.5rem 2rem;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  box-shadow: var(--shadow-card);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
   overflow: hidden;
   margin-bottom: 2.5rem;
@@ -50,7 +50,7 @@
   left: -2px;
   right: -2px;
   bottom: -2px;
-  border-radius: 14px;
+  border-radius: 12px;
   background: linear-gradient(135deg, #fff6dc, #f3d99c);
   z-index: -1;
   transition: background 0.3s ease;
@@ -58,7 +58,7 @@
 
 .contact-box:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+  box-shadow: var(--shadow-card-hover);
 }
 
 .contact-box:hover::before {
@@ -111,7 +111,7 @@
   height: 320px;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-card);
   position: relative;
 }
 
@@ -121,13 +121,14 @@
   border: 0;
   object-fit: cover;
   display: block;
+  border-radius: 12px;
 }
 
 .form-box {
   flex: 1 1 55%;
   min-height: 320px;
   border-radius: 12px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-card);
   background-color: rgba(255, 255, 255, 0.85);
   padding: 1.5rem;
   border: 2px solid #d4af37;
@@ -138,7 +139,7 @@
 .form-box h3 {
   font-family: 'Lora', serif;
   color: var(--blu-profondo);
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   text-align: center;
 }
 
@@ -147,7 +148,7 @@
   width: 100%;
   padding: 0.5rem;
   border: 1px solid var(--grigio-scuro);
-  border-radius: 5px;
+  border-radius: 12px;
   margin-bottom: 1rem;
   font-family: 'Open Sans', sans-serif;
   color: var(--grigio-scuro);
@@ -171,19 +172,22 @@
   background-color: var(--blu-profondo);
   color: var(--white);
   border: none;
-  border-radius: 5px;
+  border-radius: 12px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  box-shadow: var(--shadow-button);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
 }
 
 .contact-form .btn-cta:hover {
   background-color: var(--azzurro-chiaro);
+  box-shadow: var(--shadow-button-hover);
+  transform: translateY(-2px);
 }
 
 .status-box {
   margin-top: 1rem;
   padding: 0.5rem;
-  border-radius: 5px;
+  border-radius: 12px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
@@ -216,5 +220,8 @@
     font-size: 1.1rem;
   }
 }
+
+
+
 
 

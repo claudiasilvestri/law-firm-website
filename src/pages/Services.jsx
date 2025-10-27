@@ -32,7 +32,7 @@ export default function Services() {
         </div>
 
         <div className="service">
-          <h2>⚖️ Recupero Crediti e Contenziosi Civili</h2>
+          <h2>🧾Recupero Crediti e Contenziosi Civili</h2>
           <p>Gestisco le attività di <strong>recupero crediti</strong> in modo <strong>rapido ed efficace</strong>, sia in via <strong>stragiudiziale</strong> che <strong>giudiziale</strong>.<br/>
           Offro inoltre <strong>assistenza nei contenziosi civili</strong> e nelle <strong>controversie contrattuali</strong>, con <strong>strategie mirate al risultato</strong> e attenzione ai <strong>costi e ai tempi</strong>.</p>
         </div>
@@ -50,7 +50,7 @@ export default function Services() {
         </div>
 
         <div className="service">
-          <h2>🚫 Tutela contro la Discriminazione e le Pari Opportunità</h2>
+          <h2>🌍 Tutela contro la Discriminazione e le Pari Opportunità</h2>
           <p>Offro <strong>assistenza legale</strong> in casi di <strong>discriminazione di genere</strong>, sul lavoro o nell’accesso ai servizi, con particolare attenzione ai principi di <strong>uguaglianza e dignità personale</strong>.<br/>
           L’obiettivo è garantire <strong>tutela effettiva</strong> e rispetto dei <strong>diritti fondamentali</strong>, anche attraverso azioni <strong>giudiziarie mirate</strong>.</p>
         </div>
