@@ -1,5 +1,5 @@
 .navbar {
-  background-color: var(--blu-profondo);
+  background: linear-gradient(135deg, #1E3A5F, #294a73);
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -9,6 +9,7 @@
   top: 0;
   z-index: 1000;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-bottom: 3px solid #d4af37;
 }
 
 .logo {
@@ -32,18 +33,18 @@
   color: var(--white);
   font-weight: 500;
   position: relative;
-  transition: color 0.3s ease;
-  text-decoration: none !important;
+  text-decoration: none;
+  padding-bottom: 4px;
 }
 
 .nav-links a::after {
   content: "";
   position: absolute;
-  width: 0%;
-  height: 2px;
-  bottom: -2px;
   left: 0;
-  background-color: var(--azzurro-chiaro);
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #d4af37 !important;
   transition: width 0.3s ease;
 }
 
@@ -53,7 +54,7 @@
 
 .nav-links a:focus,
 .nav-links a:active {
-  text-decoration: none !important;
+  text-decoration: none;
   outline: none;
 }
 
@@ -76,7 +77,6 @@
   .logo {
     font-size: 1.1rem;
   }
-
   .nav-links {
     gap: 0.8rem;
   }
@@ -88,22 +88,13 @@
     align-items: flex-start;
     padding: 1rem;
   }
-
   .logo {
     font-size: 1rem;
     margin-bottom: 0.5rem;
   }
-
   .nav-links {
     flex-direction: column;
     width: 100%;
     gap: 0.5rem;
   }
 }
-
-
-
-
-
-
-

@@ -1,7 +1,5 @@
-/* Contact Section */
 .contact-section {
   padding: 4rem 2rem;
-  background-color: var(--beige);
 }
 
 .contact-container {
@@ -62,7 +60,6 @@
   background: linear-gradient(135deg, #fff8e5, #f5eed2);
 }
 
-/* Icone verticali */
 .contact-icons-vertical {
   display: flex;
   flex-direction: column;
@@ -127,6 +124,7 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
   background-color: rgba(255, 255, 255, 0.85);
   padding: 1.5rem;
+  border: 2px solid #d4af37;
 }
 
 .form-box h3 {

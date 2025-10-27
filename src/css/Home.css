@@ -1,11 +1,13 @@
 html, body {
   height: 100%;
   margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .home-section {
@@ -13,35 +15,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
   text-align: center;
+  padding: 4rem 2rem 2rem 2rem; /* spazio sopra per staccare dalla navbar */
+  box-sizing: border-box;
 }
 
 .text-box {
   max-width: 800px;
-  width: 90%;
+  width: 100%;
   padding: 2rem;
   border-radius: 20px;
-  background: linear-gradient(145deg, #fff6dc, #f3d99c);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-  position: relative;
-  margin: auto 0; 
-}
-
-.text-box::before {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  border-radius: 22px;
-  background: linear-gradient(135deg, #ffeaa7, #f9d976);
-  z-index: -1;
+  background: linear-gradient(145deg, #faf8f0, #f3e7c9);
+  border: 2px solid #d4af37;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  box-sizing: border-box;
 }
 
 .text-box h1 {
-  color: var(--blu-profondo);
+  color: #1E3A5F;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -56,36 +47,39 @@ body {
 .button-accent {
   display: inline-block;
   padding: 0.8rem 1.5rem;
-  background-color: var(--blu-profondo);
-  color: var(--white);
+  background-color: #1E3A5F;
+  color: #ffffff;
   border-radius: 5px;
   text-decoration: none;
-  transition: background-color 0.3s ease;
   margin-top: 1.5rem;
+  transition: background-color 0.3s ease;
 }
 
 .button-accent:hover {
-  background-color: var(--azzurro-chiaro);
+  background-color: #A3C1DA;
 }
 
 @media (max-width: 768px) {
+  .home-section {
+    padding: 3rem 1rem 2rem 1rem;
+  }
   .text-box {
     padding: 1.5rem;
   }
-
   .text-box h1 {
     font-size: 1.6rem;
   }
-
   .text-box p {
     font-size: 0.95rem;
   }
-
   .button-accent {
     padding: 0.6rem 1.2rem;
     font-size: 0.85rem;
   }
 }
+
+
+
 
 
 
