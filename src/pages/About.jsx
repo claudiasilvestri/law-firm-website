@@ -33,7 +33,7 @@ export default function About() {
           </ul>
 
           <p>
-            Sono anche qualificata come <strong>Gestore della Crisi da Sovraindebitamento</strong>, per supportare chi affronta difficoltà economiche.
+            Sono anche qualificata come <strong>Gestore della Crisi da Sovraindebitamento</strong>.
           </p>
 
           <a 

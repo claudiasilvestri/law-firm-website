@@ -52,17 +52,20 @@ body {
   padding: 0.8rem 1.5rem;
   background-color: var(--blu-profondo);
   color: var(--white);
-  border-radius: 5px;
+  border-radius: 12px;
   border: 2px solid #d4af37;
   text-decoration: none;
-  margin-top: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin-top: 1.5rem;
 }
 
-.button-accent:hover {
+.button-accent:hover,
+.button-accent:focus {
   background-color: var(--azzurro-chiaro);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
 }
 
@@ -84,5 +87,7 @@ body {
     font-size: 0.85rem;
   }
 }
+
+
 
 

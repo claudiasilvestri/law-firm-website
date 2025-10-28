@@ -21,7 +21,7 @@ export default function Home() {
           orientato alla <strong>prevenzione dei rischi</strong> e alla <strong>tutela dei propri diritti</strong>.
         </p>
         <Link to="/contact" className="button-accent">
-          Prenota Consulenza
+          Richiedi una Consulenza
         </Link>
       </div>
     </section>

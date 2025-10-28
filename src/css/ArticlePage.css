@@ -7,11 +7,12 @@
 }
 
 .article-img {
-  width: 95%;
+  width: 100%;
   height: auto;
   border-radius: 12px;
+  object-fit: cover;
   margin-bottom: 1rem;
-  box-shadow: var(--shadow-card);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
 }
 
 .article-page h1 {
@@ -37,7 +38,7 @@
 
 .article-content h3 {
   font-family: 'Lora', serif;
-  margin-top: 15px;
+  margin-top: 0.8rem;
   margin-bottom: 0.8rem;
   color: var(--blu-profondo);
 }
@@ -49,10 +50,12 @@
   color: var(--grigio-scuro);
 }
 
-.article-content ol,
-.article-content ul {
-  margin-left: 20px;
-  margin-bottom: 1rem;
+.article-content ul,
+.article-content ol {
+  padding-left: 1rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+  color: var(--grigio-scuro);
 }
 
 .article-navigation {
@@ -64,21 +67,23 @@
 
 .back-button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 0.8rem 1.5rem;
   background-color: var(--blu-profondo);
   color: var(--white);
   border-radius: 12px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
+  text-align: center;
   text-decoration: none;
-  box-shadow: var(--shadow-button);
-  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
 }
 
-.back-button:hover {
+.back-button:hover,
+.back-button:focus {
   background-color: var(--azzurro-chiaro);
-  transform: scale(1.05);
-  box-shadow: var(--shadow-button-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
 }
 
 .suggested-articles h3 {
@@ -90,8 +95,9 @@
 
 .suggested-articles ul {
   list-style: none;
-  padding: 0;
-  line-height: 1.6;
+  padding-left: 1rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
 }
 
 .suggested-articles li {
@@ -122,7 +128,7 @@
   }
 
   .back-button {
-    padding: 8px 16px;
+    padding: 0.8rem 1.5rem;
     font-size: 0.9rem;
   }
 

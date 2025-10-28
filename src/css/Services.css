@@ -3,7 +3,7 @@
   margin: 3rem auto;
   padding: 3rem 2rem;
   font-family: 'Open Sans', sans-serif;
-  color: var(--grigio-antracite);
+  color: var(--grigio-scuro);
 }
 
 .services-section h1 {
@@ -19,7 +19,7 @@
   max-width: 800px;
   margin: 0 auto 2rem auto;
   padding: 0 1rem;
-  color: var(--grigio-antracite);
+  color: var(--grigio-scuro);
 }
 
 .services-intro h2 {
@@ -32,8 +32,8 @@
 .services-intro p {
   font-size: 1.05rem;
   line-height: 1.8;
-  color: var(--grigio-antracite);
   margin-bottom: 0.8rem;
+  color: var(--grigio-scuro);
 }
 
 .services {
@@ -55,7 +55,7 @@
   border: 2px solid #d4af37;
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
-  color: var(--grigio-antracite);
+  color: var(--grigio-scuro);
 }
 
 .service::before {
@@ -65,14 +65,14 @@
   left: -2px;
   right: -2px;
   bottom: -2px;
-  border-radius: 14px;
+  border-radius: 12px;
   background: linear-gradient(135deg, #fff6dc, #f3d99c);
   z-index: -1;
   transition: background 0.3s ease;
 }
 
 .service:hover {
-  transform: translateY(-6px);
+  transform: translateY(-2px);
   box-shadow: 0 12px 25px rgba(0,0,0,0.12);
 }
 
@@ -90,29 +90,37 @@
 .service p {
   line-height: 1.7;
   font-size: 1rem;
-  color: var(--grigio-antracite);
   margin-bottom: 0.8rem;
+  color: var(--grigio-scuro);
+}
+
+.service img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
 }
 
 .services-section .button-accent {
-  display: block;
-  width: fit-content;
-  margin: 2rem auto 0;
+  display: inline-block;
   padding: 0.8rem 1.5rem;
   background-color: var(--blu-profondo);
   color: var(--white);
-  border-radius: 8px;
+  border-radius: 12px;
   border: 2px solid #d4af37;
   text-decoration: none;
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
   font-weight: 600;
 }
 
-.services-section .button-accent:hover {
+.services-section .button-accent:hover,
+.services-section .button-accent:focus {
   background-color: var(--azzurro-chiaro);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
 }
 
@@ -141,6 +149,4 @@
     font-size: 1rem;
   }
 }
-
-
 
