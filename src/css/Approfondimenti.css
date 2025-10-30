@@ -4,6 +4,8 @@
   justify-content: center;
   gap: 1.5rem;
   padding: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--grigio-scuro);
 }
 
 .approfondimenti-section h1 {
@@ -11,6 +13,8 @@
   text-align: center;
   margin-bottom: 1.5rem;
   font-size: 2rem;
+  line-height: 1.6;
+  letter-spacing: 0;
   font-family: 'Lora', serif;
   color: var(--blu-profondo);
 }
@@ -26,11 +30,12 @@
   background: linear-gradient(145deg, #fff6dc, #f3d99c);
   border: 2px solid #d4af37;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background 0.3s ease-in-out;
   min-height: 400px;
   position: relative;
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
+  color: var(--grigio-scuro);
 }
 
 .card::before {
@@ -43,15 +48,17 @@
   border-radius: 12px;
   background: linear-gradient(135deg, #fff6dc, #f3d99c);
   z-index: -1;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease-in-out;
 }
 
-.card:hover {
-  transform: translateY(-6px);
+.card:hover,
+.card:focus-within {
+  transform: translateY(-2px);
   box-shadow: 0 12px 25px rgba(0,0,0,0.12);
 }
 
-.card:hover::before {
+.card:hover::before,
+.card:focus-within::before {
   background: linear-gradient(135deg, #fff8e5, #f5eed2);
 }
 
@@ -62,10 +69,19 @@
   object-fit: cover;
   margin-bottom: 1rem;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.card-img:hover,
+.card-img:focus {
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
 }
 
 .card h2 {
   font-size: 1.2rem;
+  line-height: 1.4;
+  letter-spacing: 0;
   margin: 0.5rem 0;
   font-family: 'Lora', serif;
   color: var(--blu-profondo);
@@ -73,6 +89,8 @@
 
 .card small {
   font-size: 0.9rem;
+  line-height: 1.4;
+  letter-spacing: 0;
   color: var(--grigio-scuro);
   margin-bottom: 0.5rem;
   display: block;
@@ -80,8 +98,9 @@
 
 .card p {
   font-size: 0.95rem;
+  line-height: 1.6;
+  letter-spacing: 0;
   color: var(--grigio-scuro);
-  line-height: 1.4;
   margin-bottom: 1rem;
 }
 
@@ -94,9 +113,12 @@
   text-decoration: none;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 0;
   font-weight: 600;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
   margin-top: auto;
 }
 
@@ -124,4 +146,7 @@
     width: 90%;
   }
 }
+
+
+
 

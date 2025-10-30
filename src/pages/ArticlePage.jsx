@@ -16,7 +16,6 @@ export default function ArticlePage() {
   );
 
   const currentIndex = sortedArticles.findIndex(a => a.id === article.id);
-
   const suggestedArticles = [];
 
   if (currentIndex > 0) suggestedArticles.push(sortedArticles[currentIndex - 1]);
@@ -29,7 +28,12 @@ export default function ArticlePage() {
         <meta name="description" content={article.description} />
       </Helmet>
 
-      <img src={article.image} alt={article.title} className="article-img" />
+      <img 
+        src={article.image} 
+        alt={`Immagine rappresentativa dell'articolo: ${article.title}`} 
+        className="article-img" 
+      />
+
       <h1>{article.title}</h1>
       <small>{article.date}</small>
 
@@ -39,7 +43,7 @@ export default function ArticlePage() {
       />
 
       <div className="article-navigation">
-        <Link to="/approfondimenti" className="back-button">
+        <Link to="/approfondimenti" className="back-button" aria-label="Torna alla lista articoli">
           Torna indietro
         </Link>
 
@@ -48,7 +52,9 @@ export default function ArticlePage() {
           <ul>
             {suggestedArticles.map(a => (
               <li key={a.id}>
-                <Link to={`/approfondimenti/${a.id}`}>{a.title}</Link>
+                <Link to={`/approfondimenti/${a.id}`} aria-label={`Leggi l'articolo: ${a.title}`}>
+                  {a.title}
+                </Link>
               </li>
             ))}
           </ul>
@@ -57,7 +63,3 @@ export default function ArticlePage() {
     </section>
   );
 }
-
-
-
-

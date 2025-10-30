@@ -26,7 +26,7 @@ export default function Approfondimenti() {
         <div key={article.id} className="card">
           <img
             src={article.imageCard}
-            alt={article.title}
+            alt={`Immagine rappresentativa dell'articolo: ${article.title}`}
             className="card-img"
           />
           <h2>{article.title}</h2>
@@ -35,6 +35,7 @@ export default function Approfondimenti() {
           <Link
             to={`/approfondimenti/${article.id}`}
             className="button-accent"
+            aria-label={`Leggi l'articolo: ${article.title}`}
           >
             Leggi articolo
           </Link>
@@ -43,9 +44,3 @@ export default function Approfondimenti() {
     </section>
   );
 }
-
-
-
-
-
-

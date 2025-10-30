@@ -2,6 +2,10 @@ html, body {
   height: 100%;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: var(--grigio-scuro);
 }
 
 body {
@@ -29,12 +33,19 @@ body {
   border: 2px solid #d4af37;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: var(--grigio-scuro);
 }
 
 .text-box h1 {
   font-family: 'Lora', serif;
-  color: var(--blu-profondo);
   font-size: 2rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: var(--blu-profondo);
   margin-bottom: 1.5rem;
 }
 
@@ -42,12 +53,16 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
+  letter-spacing: 0;
   color: var(--grigio-scuro);
   margin-bottom: 0.8rem;
 }
 
 .button-accent {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 0;
   display: inline-block;
   padding: 0.8rem 1.5rem;
   background-color: var(--blu-profondo);
@@ -58,8 +73,9 @@ body {
   text-align: center;
   font-weight: 600;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
   margin-top: 1.5rem;
+  cursor: pointer;
 }
 
 .button-accent:hover,
@@ -67,27 +83,29 @@ body {
   background-color: var(--azzurro-chiaro);
   box-shadow: 0 12px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
+  border-color: #d4af37;
 }
 
 @media (max-width: 768px) {
   .home-section {
     padding: 3rem 1rem 2rem 1rem;
   }
+
   .text-box {
     padding: 1.5rem;
   }
+
   .text-box h1 {
     font-size: 1.6rem;
   }
+
   .text-box p {
     font-size: 0.95rem;
   }
+
   .button-accent {
-    padding: 0.6rem 1.2rem;
-    font-size: 0.85rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
   }
 }
-
-
-
-

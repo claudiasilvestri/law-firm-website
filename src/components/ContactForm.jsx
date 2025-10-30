@@ -51,20 +51,25 @@ export default function ContactForm() {
         value={name}
         onChange={(e) => setName(e.target.value)}
         required
+        style={{ lineHeight: "1.5", letterSpacing: "0.5px" }}
       />
+
       <input
         type="email"
         placeholder="Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
+        style={{ lineHeight: "1.5", letterSpacing: "0.5px" }}
       />
+
       <textarea
         placeholder="Messaggio"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         maxLength={500}
         required
+        style={{ lineHeight: "1.5", letterSpacing: "0.5px" }}
       />
       <div className="message-counter">{message.length}/500</div>
 
@@ -77,36 +82,21 @@ export default function ContactForm() {
         autoComplete="off"
       />
 
-      <button type="submit" className="btn-cta">Invia</button>
+      <button
+        type="submit"
+        className="btn-cta"
+        style={{
+          fontFamily: "'Open Sans', sans-serif",
+          textTransform: "capitalize", 
+          cursor: "pointer",
+        }}
+      >
+        Invia
+      </button>
 
       {status && <div className={`status-box ${status}`}>{statusMessage}</div>}
     </form>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

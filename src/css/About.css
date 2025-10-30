@@ -10,6 +10,8 @@
 .about-section h1 {
   font-family: 'Lora', serif;
   font-size: 1.7rem;
+  line-height: 1.6;
+  letter-spacing: 0;
   margin-bottom: 1rem;
   color: var(--blu-profondo);
 }
@@ -22,19 +24,25 @@
 }
 
 .about-foto {
-  flex: 0 0 250px; 
+  flex: 0 0 250px;
   max-width: 100%;
 }
 
 .about-foto img {
   width: 100%;
-  height: auto; 
-  border-radius: 12px;      
-  object-fit: cover;         
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
   max-width: 250px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.12);  
-  margin-bottom: 1rem;      
-  transition: box-shadow 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  margin-bottom: 1rem;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.about-foto img:hover,
+.about-foto img:focus {
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
 }
 
 .about-text {
@@ -47,13 +55,15 @@
   margin-bottom: 0.5rem;
   color: var(--blu-profondo);
   font-size: 1.3rem;
+  line-height: 1.4;
+  letter-spacing: 0;
 }
 
 .about-text p,
 .about-text ul {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 0.8rem;
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 0.9rem;
   color: var(--grigio-scuro);
 }
@@ -71,20 +81,27 @@
   margin: 1rem auto 0 auto;
   background-color: var(--blu-profondo);
   color: var(--white);
-  padding: 0.7rem 1.2rem;
-  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
+  border-radius: 12px;
+  border: 2px solid #d4af37;
   text-decoration: none;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 0;
   font-weight: 600;
-  box-shadow: var(--shadow-button);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  cursor: pointer;
 }
 
-.button-accent:hover {
+.button-accent:hover,
+.button-accent:focus {
   background-color: var(--azzurro-chiaro);
-  box-shadow: var(--shadow-button-hover);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
+  border-color: #d4af37;
 }
 
 @media (max-width: 1024px) {
@@ -108,7 +125,6 @@
 
   .about-text p,
   .about-text ul {
-    font-size: 0.88rem;
+    font-size: 0.9rem;
   }
 }
-

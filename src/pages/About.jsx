@@ -9,7 +9,7 @@ export default function About() {
         <div className="about-foto">
           <img
             src="/assets/Foto Fede.JPG"
-            alt="Federica D’Alessandro Lojacono"
+            alt="Ritratto professionale di Federica D’Alessandro Lojacono"
           />
         </div>
 
@@ -41,6 +41,7 @@ export default function About() {
             target="_blank" 
             rel="noopener noreferrer" 
             className="button-accent"
+            aria-label="Visualizza il CV di Federica D’Alessandro Lojacono"
           >
             Visualizza CV
           </a>
@@ -49,13 +50,6 @@ export default function About() {
     </section>
   );
 }
-
-
-
-
-
-
-
 
 
 

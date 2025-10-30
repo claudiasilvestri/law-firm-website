@@ -39,3 +39,11 @@ body {
   flex: 1;
   background-color: transparent;
 }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-color: var(--grigio-chiaro);
+}

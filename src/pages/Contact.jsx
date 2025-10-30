@@ -15,27 +15,39 @@ export default function Contact() {
         <div className="contact-box">
           <div className="contact-icons-vertical">
             <div>
-              <i className="fa-solid fa-envelope"></i>
-              <a href="mailto:avvfedericadalessandrolojacono@gmail.com">
+              <i className="fa-solid fa-envelope" aria-hidden="true"></i>
+              <a
+                href="mailto:avvfedericadalessandrolojacono@gmail.com"
+                aria-label="Invia una email a Federica D’Alessandro Lojacono"
+              >
                 avvfedericadalessandrolojacono@gmail.com
               </a>
             </div>
             <div>
-              <i className="fa-solid fa-phone"></i>
-              <a href="tel:+393925068181">+39 392 506 8181</a>
+              <i className="fa-solid fa-phone" aria-hidden="true"></i>
+              <a
+                href="tel:+393925068181"
+                aria-label="Chiama Federica D’Alessandro Lojacono"
+              >
+                +39 392 506 8181
+              </a>
             </div>
             <div>
-              <i className="fa-solid fa-envelope-open-text"></i>
-              <a href="mailto:dalessandrolojacono.federica@avvocatibari.legalmail.it">
+              <i className="fa-solid fa-envelope-open-text" aria-hidden="true"></i>
+              <a
+                href="mailto:dalessandrolojacono.federica@avvocatibari.legalmail.it"
+                aria-label="Invia una PEC a Federica D’Alessandro Lojacono"
+              >
                 dalessandrolojacono.federica@avvocatibari.legalmail.it
               </a>
             </div>
             <div>
-              <i className="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
               <a
                 href="https://www.linkedin.com/in/federica-d-alessandro-lojacono-avvocatocivilista/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visita il profilo LinkedIn di Federica D’Alessandro Lojacono"
               >
                 LinkedIn
               </a>
@@ -64,15 +76,4 @@ export default function Contact() {
     </section>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
 

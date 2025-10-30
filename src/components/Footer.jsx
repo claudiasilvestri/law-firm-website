@@ -8,10 +8,11 @@ export default function Footer() {
       </p>
       <p className="credits">
         Sito web realizzato da{" "}
-        <a 
-          href="https://www.linkedin.com/in/claudia-silvestri-specialista-comunicazione-digitale/" 
-          target="_blank" 
+        <a
+          href="https://www.linkedin.com/in/claudia-silvestri-specialista-comunicazione-digitale/"
+          target="_blank"
           rel="noopener noreferrer"
+          aria-label="Profilo LinkedIn di Claudia Silvestri"
         >
           Claudia Silvestri
         </a>
@@ -19,11 +20,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-
-
-
-
-
-
-

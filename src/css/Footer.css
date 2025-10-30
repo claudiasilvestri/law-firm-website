@@ -26,13 +26,15 @@
   border-radius: 12px;
   transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
   text-align: center;
+  cursor: pointer;
 }
 
 .footer .credits a:hover,
 .footer .credits a:focus {
   background-color: rgba(255,255,255,0.1);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
+  outline: none;
 }
 
 .footer .credits a::after {
@@ -64,3 +66,5 @@
     line-height: 1.25;
   }
 }
+
+
