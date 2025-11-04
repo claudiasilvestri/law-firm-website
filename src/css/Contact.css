@@ -12,7 +12,8 @@
 .contact-main-title {
   font-family: 'Lora', serif;
   color: var(--blu-profondo);
-  font-size: 3rem;
+  font-size: 2rem;
+  line-height: 1.6;
   text-align: center;
   margin-bottom: 1.5rem;
 }
@@ -21,7 +22,8 @@
   font-family: 'Open Sans', sans-serif;
   color: var(--grigio-scuro);
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.6;
   margin-bottom: 2rem;
 }
 
@@ -153,6 +155,14 @@
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+.contact-form input:disabled,
+.contact-form textarea:disabled {
+  background-color: var(--gray-light);
+  color: var(--gray-dark);
+  cursor: not-allowed;
+  border-color: var(--gray-dark);
+}
+
 .contact-form textarea {
   min-height: 100px;
   resize: vertical;
@@ -177,6 +187,14 @@
   font-weight: 600;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
+}
+
+.contact-form .btn-cta:disabled {
+  background-color: var(--gray-light);
+  color: var(--gray-dark);
+  cursor: not-allowed;
+  box-shadow: none;
+  border-color: var(--gray-dark);
 }
 
 .contact-form .btn-cta:hover,

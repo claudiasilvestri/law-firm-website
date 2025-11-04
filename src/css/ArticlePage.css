@@ -1,20 +1,19 @@
 .article-page {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 4rem 2rem;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  letter-spacing: 0;
   color: var(--grigio-scuro);
 }
 
 .article-img {
   width: 100%;
-  height: auto;
+  aspect-ratio: 16/9;
   border-radius: 12px;
   object-fit: cover;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
@@ -28,8 +27,7 @@
 .article-page h1 {
   font-family: 'Lora', serif;
   font-size: 2rem;
-  line-height: 1.4;
-  letter-spacing: 0;
+  line-height: 1.6;
   margin-bottom: 1.5rem;
   color: var(--blu-profondo);
 }
@@ -37,8 +35,6 @@
 .article-page small {
   display: block;
   font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: 0;
   margin-bottom: 1.5rem;
   color: var(--grigio-scuro);
 }
@@ -47,44 +43,32 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  letter-spacing: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   color: var(--grigio-scuro);
 }
 
 .article-content h3 {
   font-family: 'Lora', serif;
   font-size: 1.5rem;
-  line-height: 1.4;
-  letter-spacing: 0;
-  margin-top: 0.8rem;
-  margin-bottom: 0.8rem;
+  margin: 1.2rem 0 0.8rem;
   color: var(--blu-profondo);
 }
 
 .article-content p,
 .article-content li {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: 0;
   margin-bottom: 0.8rem;
-  color: var(--grigio-scuro);
 }
 
 .article-content ul,
 .article-content ol {
-  padding-left: 1rem;
-  margin-bottom: 0.8rem;
-  line-height: 1.6;
-  color: var(--grigio-scuro);
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .article-navigation {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .back-button {
@@ -94,16 +78,12 @@
   color: var(--white);
   border-radius: 12px;
   border: 2px solid #d4af37;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: 0;
   font-weight: 600;
   text-align: center;
   text-decoration: none;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
-  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s, border-color 0.3s;
+  width: fit-content;
 }
 
 .back-button:hover,
@@ -117,17 +97,13 @@
 .suggested-articles h3 {
   font-family: 'Lora', serif;
   font-size: 1.5rem;
-  line-height: 1.4;
-  letter-spacing: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
   color: var(--blu-profondo);
 }
 
 .suggested-articles ul {
-  list-style: none;
-  padding-left: 1rem;
-  margin-bottom: 0.8rem;
-  line-height: 1.6;
+  list-style: disc;
+  padding-left: 1.5rem;
 }
 
 .suggested-articles li {
@@ -137,37 +113,27 @@
 .suggested-articles a {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: 0;
   color: var(--grigio-scuro);
   text-decoration: none;
-  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease, color 0.3s ease;
 }
 
 .suggested-articles a:hover,
 .suggested-articles a:focus {
-  text-decoration: underline;
+  border-bottom: 2px solid #d4af37;
 }
 
 @media (max-width: 768px) {
   .article-page {
-    padding: 1.5rem;
+    padding: 2rem 1.5rem;
   }
 
   .article-page h1 {
     font-size: 1.6rem;
   }
 
-  .article-content {
-    font-size: 0.95rem;
-  }
-
-  .back-button {
-    padding: 0.8rem 1.5rem;
-    font-size: 0.95rem;
-  }
-
-  .suggested-articles h3 {
+  .article-content h3 {
     font-size: 1.3rem;
   }
 }

@@ -19,7 +19,7 @@ export default function Approfondimenti() {
   });
 
   return (
-    <section className="approfondimenti-section">
+    <section className="approfondimenti-section" aria-label="Sezione approfondimenti">
       <h1>Approfondimenti</h1>
 
       {sortedArticles.map((article) => (
@@ -44,3 +44,4 @@ export default function Approfondimenti() {
     </section>
   );
 }
+

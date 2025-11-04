@@ -4,7 +4,7 @@ import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
   return (
-    <section className="contact-section">
+    <section className="contact-section" aria-label="Pagina Contatti">
       <div className="contact-container">
         <h2 className="contact-main-title">Contatti</h2>
         <p className="contact-subtitle">
@@ -12,7 +12,7 @@ export default function Contact() {
           oppure compilando il form.
         </p>
 
-        <div className="contact-box">
+        <div className="contact-box" aria-label="Recapiti e contatti">
           <div className="contact-icons-vertical">
             <div>
               <i className="fa-solid fa-envelope" aria-hidden="true"></i>
@@ -66,7 +66,7 @@ export default function Contact() {
           </div>
 
           <div className="contact-form-wrapper">
-            <div className="form-box">
+            <div className="form-box" aria-label="Modulo di contatto">
               <h3>Scrivi un messaggio</h3>
               <ContactForm />
             </div>

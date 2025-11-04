@@ -10,7 +10,6 @@ export default function ArticlePage() {
 
   if (!article) return <p>Articolo non trovato.</p>;
 
-  // Ordina gli articoli per data crescente
   const sortedArticles = [...articles].sort(
     (a, b) => new Date(a.date) - new Date(b.date)
   );
@@ -22,7 +21,7 @@ export default function ArticlePage() {
   if (currentIndex < sortedArticles.length - 1) suggestedArticles.push(sortedArticles[currentIndex + 1]);
 
   return (
-    <section className="article-page">
+    <section className="article-page" aria-label={`Pagina articolo: ${article.title}`}>
       <Helmet>
         <title>{article.title}</title>
         <meta name="description" content={article.description} />
@@ -47,7 +46,7 @@ export default function ArticlePage() {
           Torna indietro
         </Link>
 
-        <div className="suggested-articles">
+        <div className="suggested-articles" aria-label="Articoli suggeriti">
           <h3>Leggi anche</h3>
           <ul>
             {suggestedArticles.map(a => (

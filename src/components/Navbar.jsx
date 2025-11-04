@@ -4,7 +4,7 @@ import "../css/Navbar.css";
 export default function Navbar() {
   return (
     <nav className="navbar" role="navigation" aria-label="Menu principale">
-      <div className="logo" aria-label="Avv. Federica D’Alessandro Lojacono">
+      <div className="logo" aria-label="Avv. Federica D’Alessandro Lojacono" tabIndex="0" >
         ⚖️ Avv. Federica D’Alessandro Lojacono
       </div>
       <ul className="nav-links">

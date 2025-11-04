@@ -3,7 +3,7 @@ import "../css/Home.css";
 
 export default function Home() {
   return (
-    <section className="home-section">
+    <section className="home-section" aria-label="Pagina Home">
       <div className="text-box">
         <h1>
           <span role="img" aria-label="Valigia">💼</span> Consulenza legale chiara, efficace e su misura
@@ -27,10 +27,11 @@ export default function Home() {
           className="button-accent" 
           aria-label="Richiedi una consulenza legale"
         >
-          Richiedi una Consulenza
+          Richiedi una consulenza
         </Link>
       </div>
     </section>
   );
 }
+
 

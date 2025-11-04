@@ -4,7 +4,6 @@ export default function About() {
   return (
     <section className="about-section">
       <h1>Chi Sono | Federica D’Alessandro Lojacono</h1>
-
       <div className="about-content">
         <div className="about-foto">
           <img
@@ -12,7 +11,6 @@ export default function About() {
             alt="Ritratto professionale di Federica D’Alessandro Lojacono"
           />
         </div>
-
         <div className="about-text">
           <h3>I miei valori</h3>
           <ul>
@@ -20,7 +18,6 @@ export default function About() {
             <li><strong>Assistenza su misura:</strong> soluzioni personalizzate in base alle esigenze di ciascun cliente.</li>
             <li><strong>Risultati concreti:</strong> strategie efficaci sia in ambito stragiudiziale sia giudiziale.</li>
           </ul>
-
           <h3>Aree di competenza</h3>
           <ul>
             <li>Diritto civile e commerciale</li>
@@ -31,11 +28,7 @@ export default function About() {
             <li>Diritto antidiscriminatorio e pari opportunità</li>
             <li>Consulenza per enti pubblici e società</li>
           </ul>
-
-          <p>
-            Sono anche qualificata come <strong>Gestore della Crisi da Sovraindebitamento</strong>.
-          </p>
-
+          <p>Sono anche qualificata come <strong>Gestore della Crisi da Sovraindebitamento</strong>.</p>
           <a 
             href="/assets/CV Federica D'Alessandro Lojacono.pdf" 
             target="_blank" 
@@ -50,7 +43,3 @@ export default function About() {
     </section>
   );
 }
-
-
-
-

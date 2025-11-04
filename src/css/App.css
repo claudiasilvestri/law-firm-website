@@ -6,6 +6,9 @@
   --beige: #D9CBBE;
   --white: #ffffff;
   --neutral-bg: linear-gradient(180deg, #d6e4f0 0%, #ffffff 100%);
+  --card-bg-gradient: linear-gradient(145deg, #fff6dc, #f3d99c);
+  --card-bg-gradient-hover: linear-gradient(135deg, #fff8e5, #f5eed2);
+  --overlay-dark: rgba(0,0,0,0.4);
 }
 
 * {
@@ -46,4 +49,25 @@ img {
   height: auto;
   object-fit: cover;
   background-color: var(--grigio-chiaro);
+}
+
+i,
+.icon,
+.fa,
+.fab,
+.fas,
+.far,
+.fal {
+  font-size: 1.3rem;
+  line-height: 1;
+  vertical-align: middle;
+  display: inline-block;
+  width: 1.5em;
+  text-align: center;
+}
+
+:focus {
+  outline: 2px solid #d4af37; 
+  outline-offset: 2px;        
+  box-shadow: none;            
 }

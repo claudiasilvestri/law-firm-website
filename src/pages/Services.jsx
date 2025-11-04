@@ -2,7 +2,7 @@ import "../css/Services.css";
 
 export default function Services() {
   return (
-    <section className="services-section">
+    <section className="services-section" aria-label="Pagina Servizi Legali">
       <h1>
         Servizi Legali | Federica D’Alessandro Lojacono
       </h1>
@@ -15,7 +15,7 @@ export default function Services() {
         </p>
       </div>
 
-      <section className="services">
+      <section className="services" aria-label="Elenco dei servizi legali offerti">
 
         <div className="service">
           <h2>
@@ -84,4 +84,5 @@ export default function Services() {
     </section>
   );
 }
+
 

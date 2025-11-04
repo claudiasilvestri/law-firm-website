@@ -4,7 +4,6 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  letter-spacing: 0;
   color: var(--grigio-scuro);
 }
 
@@ -22,6 +21,22 @@ body {
   text-align: center;
   padding: 4rem 2rem 2rem 2rem;
   box-sizing: border-box;
+  position: relative;
+  background-image: url('/images/sfondo-home.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
 }
 
 .text-box {
@@ -33,36 +48,25 @@ body {
   border: 2px solid #d4af37;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: 0;
-  color: var(--grigio-scuro);
+  position: relative;
+  z-index: 2;
 }
 
 .text-box h1 {
   font-family: 'Lora', serif;
   font-size: 2rem;
-  line-height: 1.6;
-  letter-spacing: 0;
+  line-height: 1.4;
   color: var(--blu-profondo);
   margin-bottom: 1.5rem;
 }
 
 .text-box p {
-  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  letter-spacing: 0;
-  color: var(--grigio-scuro);
   margin-bottom: 0.8rem;
 }
 
 .button-accent {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: 0;
   display: inline-block;
   padding: 0.8rem 1.5rem;
   background-color: var(--blu-profondo);
@@ -71,11 +75,14 @@ body {
   border: 2px solid #d4af37;
   text-decoration: none;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
   font-weight: 600;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
   margin-top: 1.5rem;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .button-accent:hover,
@@ -84,6 +91,15 @@ body {
   box-shadow: 0 12px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
   border-color: #d4af37;
+  outline: none;
+}
+
+.button-accent:disabled {
+  background-color: var(--gray-light);
+  color: var(--gray-dark);
+  cursor: not-allowed;
+  box-shadow: none;
+  border-color: var(--gray-dark);
 }
 
 @media (max-width: 768px) {
@@ -100,12 +116,12 @@ body {
   }
 
   .text-box p {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 
   .button-accent {
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
   }
 }
+

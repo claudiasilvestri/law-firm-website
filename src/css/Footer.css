@@ -2,14 +2,11 @@
   text-align: center;
   padding: 1rem 2rem;
   background: linear-gradient(135deg, #1E3A5F, #294a73);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.4rem;
+  flex-shrink: 0;
   border-top: 3px solid #d4af37;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   font-family: 'Open Sans', sans-serif;
-  border-radius: 12px;
+  border-radius: 12px 12px 0 0;
 }
 
 .footer .copyright,
@@ -22,11 +19,12 @@
 .footer .credits a {
   text-decoration: none;
   position: relative;
-  padding-bottom: 2px;
+  padding: 0.1rem 0.3rem;
   border-radius: 12px;
   transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
   text-align: center;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .footer .credits a:hover,
@@ -43,7 +41,7 @@
   left: 0;
   bottom: 0;
   width: 0;
-  height: 1px;
+  height: 2px;
   background-color: #d4af37;
   transition: width 0.3s ease;
 }
@@ -56,15 +54,13 @@
 @media (max-width: 768px) {
   .footer {
     padding: 0.8rem 1rem;
-    gap: 0.3rem;
   }
 
   .footer .copyright,
   .footer .credits,
   .footer .credits a {
-    font-size: 0.72rem;
+    font-size: 0.75rem;
     line-height: 1.25;
   }
 }
-
 

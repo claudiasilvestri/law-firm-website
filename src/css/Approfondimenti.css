@@ -14,7 +14,6 @@
   margin-bottom: 1.5rem;
   font-size: 2rem;
   line-height: 1.6;
-  letter-spacing: 0;
   font-family: 'Lora', serif;
   color: var(--blu-profondo);
 }
@@ -64,7 +63,7 @@
 
 .card-img {
   width: 100%;
-  height: auto;
+  aspect-ratio: 16/9;
   border-radius: 12px;
   object-fit: cover;
   margin-bottom: 1rem;
@@ -76,12 +75,12 @@
 .card-img:focus {
   box-shadow: 0 12px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
+  outline: none;
 }
 
 .card h2 {
   font-size: 1.2rem;
   line-height: 1.4;
-  letter-spacing: 0;
   margin: 0.5rem 0;
   font-family: 'Lora', serif;
   color: var(--blu-profondo);
@@ -90,7 +89,6 @@
 .card small {
   font-size: 0.9rem;
   line-height: 1.4;
-  letter-spacing: 0;
   color: var(--grigio-scuro);
   margin-bottom: 0.5rem;
   display: block;
@@ -99,7 +97,6 @@
 .card p {
   font-size: 0.95rem;
   line-height: 1.6;
-  letter-spacing: 0;
   color: var(--grigio-scuro);
   margin-bottom: 1rem;
 }
@@ -110,16 +107,17 @@
   background-color: var(--blu-profondo);
   color: var(--white);
   border-radius: 12px;
+  border: 2px solid #d4af37;
   text-decoration: none;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  letter-spacing: 0;
   font-weight: 600;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
   margin-top: auto;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
 }
 
 .button-accent:hover,
@@ -127,6 +125,32 @@
   background-color: var(--azzurro-chiaro);
   box-shadow: 0 12px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
+}
+
+.button-accent.read-article {
+  background-color: var(--blu-profondo);
+  border: 2px solid #d4af37;
+}
+
+.button-accent.read-article:hover,
+.button-accent.read-article:focus {
+  background-color: var(--blu-profondo);
+  transform: none;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+.button-accent:active {
+  background-color: var(--blu-scuro);
+  transform: translateY(0);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+.button-accent:disabled {
+  background-color: var(--gray-light);
+  color: var(--gray-dark);
+  cursor: not-allowed;
+  box-shadow: none;
+  border-color: var(--gray-dark);
 }
 
 @media (max-width: 1024px) {
@@ -146,7 +170,6 @@
     width: 90%;
   }
 }
-
 
 
 
