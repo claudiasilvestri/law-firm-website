@@ -39,7 +39,9 @@ body {
 }
 
 .main-content {
-  flex: 1;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
   background-color: transparent;
 }
 
@@ -51,13 +53,7 @@ img {
   background-color: var(--grigio-chiaro);
 }
 
-i,
-.icon,
-.fa,
-.fab,
-.fas,
-.far,
-.fal {
+i, .icon, .fa, .fab, .fas, .far, .fal {
   font-size: 1.3rem;
   line-height: 1;
   vertical-align: middle;
