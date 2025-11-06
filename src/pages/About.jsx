@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import "../css/About.css";
 
 export default function About() {
+  useEffect(() => {
+    document.title = "Chi Sono | Federica D’Alessandro Lojacono";
+  }, []);
+
   return (
     <section className="about-section">
       <h1>Chi Sono | Federica D’Alessandro Lojacono</h1>

@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { articles } from "../data/articles.js";
 import "../css/Approfondimenti.css";
 
 export default function Approfondimenti() {
+  useEffect(() => {
+    document.title = "Approfondimenti | Federica D’Alessandro Lojacono";
+  }, []);
+
   const mesi = {
     Gennaio: 0, Febbraio: 1, Marzo: 2, Aprile: 3,
     Maggio: 4, Giugno: 5, Luglio: 6, Agosto: 7,
@@ -44,4 +48,3 @@ export default function Approfondimenti() {
     </section>
   );
 }
-

@@ -1,9 +1,18 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import "../css/Home.css";
 
 export default function Home() {
   return (
     <section className="home-section" aria-label="Pagina Home">
+      <Helmet>
+        <title>Home | Federica D’Alessandro Lojacono</title>
+        <meta
+          name="description"
+          content="Consulenza legale chiara, efficace e su misura a Bari. Federica D’Alessandro Lojacono offre supporto legale per persone, professionisti e imprese."
+        />
+      </Helmet>
+
       <div className="text-box">
         <h1>
           <span role="img" aria-label="Valigia">💼</span> Consulenza legale chiara, efficace e su misura
@@ -33,5 +42,3 @@ export default function Home() {
     </section>
   );
 }
-
-

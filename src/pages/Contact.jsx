@@ -1,10 +1,19 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import "../css/Contact.css";
 import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
   return (
     <section className="contact-section" aria-label="Pagina Contatti">
+      <Helmet>
+        <title>Contatti | Studio Legale Federica D’Alessandro Lojacono</title>
+        <meta
+          name="description"
+          content="Per informazioni o consulenze legali contatta Federica D’Alessandro Lojacono tramite email, telefono o form online."
+        />
+      </Helmet>
+
       <div className="contact-container">
         <h2 className="contact-main-title">Contatti</h2>
         <p className="contact-subtitle">
