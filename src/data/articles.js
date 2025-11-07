@@ -198,10 +198,3 @@ export const articles = [
     `
   }
 ];
-
-
-
-
-
-
-
