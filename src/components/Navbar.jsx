@@ -5,6 +5,14 @@ import "../css/Navbar.css";
 export default function Navbar() {
   const navRef = useRef(null);
 
+  const navItems = [
+    { name: "Home", path: "/" },
+    { name: "Chi Sono", path: "/about" },
+    { name: "Servizi", path: "/services" },
+    { name: "Contatti", path: "/contact" },
+    { name: "Approfondimenti", path: "/approfondimenti" }
+  ];
+
   useEffect(() => {
     const el = navRef.current;
     if (!el) return;
@@ -31,11 +39,11 @@ export default function Navbar() {
         ⚖️ Avv. Federica D’Alessandro Lojacono
       </div>
       <ul className="nav-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">Chi Sono</Link></li>
-        <li><Link to="/services">Servizi</Link></li>
-        <li><Link to="/approfondimenti">Approfondimenti</Link></li>
-        <li><Link to="/contact">Contatti</Link></li>
+        {navItems.map((item) => (
+          <li key={item.name}>
+            <Link to={item.path}>{item.name}</Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );
