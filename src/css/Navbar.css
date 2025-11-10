@@ -11,6 +11,13 @@
   border-bottom: 3px solid #d4af37;
   border-radius: 12px;
   font-family: 'Open Sans', sans-serif;
+  max-width: 100vw;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
 }
 
 .logo {
@@ -38,7 +45,7 @@
   text-decoration: none;
   padding: 0.4rem 0.8rem;
   border-radius: 12px;
-  position: relative;
+  transition: all 0.2s ease;
 }
 
 .nav-links a:hover,
@@ -47,11 +54,48 @@
   box-shadow: 0 12px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
   outline: none;
+  border-bottom: 2px solid #d4af37;
 }
 
 @media (max-width: 768px) {
-  .navbar { padding: 0.6rem 0.8rem; }
-  .logo { font-size: 1.05rem; }
-  .nav-links { gap: 0.6rem; }
-  .nav-links a { font-size: 0.9rem; padding: 0.3rem 0.6rem; }
+  .navbar {
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem 0.6rem;
+    background: linear-gradient(135deg, #1E3A5F, #294a73);
+  }
+
+  .logo {
+    font-size: 1.1rem;
+  }
+
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.3rem;
+    width: 100%;
+    margin-top: 0.4rem;
+  }
+
+  .nav-links li {
+    text-align: center;
+  }
+
+  .nav-links li:nth-child(5) {
+    grid-column: span 2;
+  }
+
+  .nav-links a {
+    padding: 0.4rem 0;
+    font-size: 0.9rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .home-section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: url('../img/sfondo.jpg') no-repeat center center/cover;
+  }
 }
