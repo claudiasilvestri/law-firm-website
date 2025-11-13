@@ -99,6 +99,15 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-section {
+    height: auto;
+    align-items: flex-start;
+    overflow-y: auto;
+    padding-top: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .home-section {
     background-image: url('/images/sfondo-mobile.jpg');

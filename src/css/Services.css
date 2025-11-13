@@ -161,10 +161,6 @@
 @media (max-width: 1024px) {
   .services {
     grid-template-columns: 1fr;
-    row-gap: 2rem;
-    column-gap: 1.5rem;
-    max-width: 1000px;
-    margin: 0 auto;
   }
 }
 

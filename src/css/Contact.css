@@ -223,7 +223,7 @@
   color: #721c24;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .contact-layout {
     flex-direction: column;
   }
@@ -238,6 +238,23 @@
   }
 
   .contact-subtitle {
-    font-size: 1.1rem;
+    font-size: 1rem;
+  }
+
+  .contact-box {
+    max-width: 95%;
+    padding: 1rem 2rem;
+  }
+
+  .contact-icons-vertical div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .contact-icons-vertical a {
+    font-size: 0.8rem;
+    white-space: normal;
+    word-break: break-word;
   }
 }

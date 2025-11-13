@@ -1,9 +1,16 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "../css/About.css";
 
 export default function About() {
+  const [isTablet, setIsTablet] = useState(false);
+
   useEffect(() => {
     document.title = "Chi Sono | Federica D’Alessandro Lojacono";
+
+    const handleResize = () => setIsTablet(window.innerWidth <= 1024);
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
@@ -15,6 +22,17 @@ export default function About() {
             src="/assets/Foto Fede.JPG"
             alt="Ritratto professionale di Federica D’Alessandro Lojacono"
           />
+          {isTablet && (
+            <a 
+              href="/assets/CV Federica D'Alessandro Lojacono.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="button-accent"
+              aria-label="Visualizza il CV di Federica D’Alessandro Lojacono"
+            >
+              Visualizza CV
+            </a>
+          )}
         </div>
         <div className="about-text">
           <h3>I miei valori</h3>
@@ -34,15 +52,17 @@ export default function About() {
             <li>Consulenza per enti pubblici e società</li>
           </ul>
           <p>Sono anche qualificata come <strong>Gestore della Crisi da Sovraindebitamento</strong>.</p>
-          <a 
-            href="/assets/CV Federica D'Alessandro Lojacono.pdf" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="button-accent"
-            aria-label="Visualizza il CV di Federica D’Alessandro Lojacono"
-          >
-            Visualizza CV
-          </a>
+          {!isTablet && (
+            <a 
+              href="/assets/CV Federica D'Alessandro Lojacono.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="button-accent"
+              aria-label="Visualizza il CV di Federica D’Alessandro Lojacono"
+            >
+              Visualizza CV
+            </a>
+          )}
         </div>
       </div>
     </section>

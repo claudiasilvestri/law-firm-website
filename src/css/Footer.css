@@ -50,16 +50,3 @@
 .footer .credits a:focus::after {
   width: 100%;
 }
-
-@media (max-width: 768px) {
-  .footer {
-    padding: 0.8rem 1rem;
-  }
-
-  .footer .copyright,
-  .footer .credits,
-  .footer .credits a {
-    font-size: 0.75rem;
-    line-height: 1.25;
-  }
-}
