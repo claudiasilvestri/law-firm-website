@@ -13,6 +13,18 @@ export default function About() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  const cvLink = (
+    <a
+      href="/assets/CV Federica D'Alessandro Lojacono.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="button-accent"
+      aria-label="Visualizza il CV di Federica D’Alessandro Lojacono"
+    >
+      Visualizza CV
+    </a>
+  );
+
   return (
     <section className="about-section">
       <h1>Chi Sono | Federica D’Alessandro Lojacono</h1>
@@ -22,17 +34,7 @@ export default function About() {
             src="/assets/Foto Fede.JPG"
             alt="Ritratto professionale di Federica D’Alessandro Lojacono"
           />
-          {isTablet && (
-            <a 
-              href="/assets/CV Federica D'Alessandro Lojacono.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="button-accent"
-              aria-label="Visualizza il CV di Federica D’Alessandro Lojacono"
-            >
-              Visualizza CV
-            </a>
-          )}
+          {isTablet && cvLink}
         </div>
         <div className="about-text">
           <h3>I miei valori</h3>
@@ -52,17 +54,7 @@ export default function About() {
             <li>Consulenza per enti pubblici e società</li>
           </ul>
           <p>Sono anche qualificata come <strong>Gestore della Crisi da Sovraindebitamento</strong>.</p>
-          {!isTablet && (
-            <a 
-              href="/assets/CV Federica D'Alessandro Lojacono.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="button-accent"
-              aria-label="Visualizza il CV di Federica D’Alessandro Lojacono"
-            >
-              Visualizza CV
-            </a>
-          )}
+          {!isTablet && cvLink}
         </div>
       </div>
     </section>

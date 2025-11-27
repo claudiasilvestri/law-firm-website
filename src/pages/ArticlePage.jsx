@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { articles } from "../data/articles.js";
@@ -6,19 +6,24 @@ import "../css/ArticlePage.css";
 
 export default function ArticlePage() {
   const { id } = useParams();
-  const article = articles.find(a => a.id === parseInt(id));
+
+  const article = useMemo(() => articles.find(a => a.id === parseInt(id)), [id]);
+
+  const sortedArticles = useMemo(() => {
+    return [...articles].sort((a, b) => new Date(a.date) - new Date(b.date));
+  }, []);
+
+  const currentIndex = useMemo(() => sortedArticles.findIndex(a => a.id === article?.id), [article, sortedArticles]);
+
+  const suggestedArticles = useMemo(() => {
+    if (!article) return [];
+    const suggestions = [];
+    if (currentIndex > 0) suggestions.push(sortedArticles[currentIndex - 1]);
+    if (currentIndex < sortedArticles.length - 1) suggestions.push(sortedArticles[currentIndex + 1]);
+    return suggestions;
+  }, [article, currentIndex, sortedArticles]);
 
   if (!article) return <p>Articolo non trovato.</p>;
-
-  const sortedArticles = [...articles].sort(
-    (a, b) => new Date(a.date) - new Date(b.date)
-  );
-
-  const currentIndex = sortedArticles.findIndex(a => a.id === article.id);
-  const suggestedArticles = [];
-
-  if (currentIndex > 0) suggestedArticles.push(sortedArticles[currentIndex - 1]);
-  if (currentIndex < sortedArticles.length - 1) suggestedArticles.push(sortedArticles[currentIndex + 1]);
 
   return (
     <section className="article-page" aria-label={`Pagina articolo: ${article.title}`}>

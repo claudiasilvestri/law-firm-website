@@ -28,7 +28,7 @@
 }
 
 .contact-box {
-  background: linear-gradient(145deg, #fff6dc, #f3d99c);
+  background: var(--card-bg-gradient);
   border-radius: 12px;
   border: 2px solid #d4af37;
   position: relative;
@@ -42,17 +42,15 @@
   align-items: center;
   max-width: 600px;
   color: var(--grigio-scuro);
+  font-size: 1rem;
 }
 
 .contact-box::before {
   content: "";
   position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
+  inset: -2px;
   border-radius: 12px;
-  background: linear-gradient(135deg, #fff6dc, #f3d99c);
+  background: var(--card-bg-gradient);
   z-index: -1;
   transition: background 0.3s ease;
 }
@@ -63,7 +61,7 @@
 }
 
 .contact-box:hover::before {
-  background: linear-gradient(135deg, #fff8e5, #f5eed2);
+  background: var(--card-bg-gradient-hover);
 }
 
 .contact-icons-vertical {
@@ -113,7 +111,6 @@
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-  position: relative;
 }
 
 .contact-map iframe {
@@ -129,11 +126,9 @@
   min-height: 320px;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255,255,255,0.85);
   padding: 1.5rem;
   border: 2px solid #d4af37;
-  font-family: 'Open Sans', sans-serif;
-  color: var(--grigio-scuro);
 }
 
 .form-box h3 {
@@ -238,23 +233,21 @@
   }
 
   .contact-subtitle {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .contact-box {
     max-width: 95%;
     padding: 1rem 2rem;
+    font-size: 0.95rem; 
   }
 
   .contact-icons-vertical div {
-    display: flex;
-    align-items: center;
     gap: 0.5rem;
   }
 
   .contact-icons-vertical a {
     font-size: 0.8rem;
-    white-space: normal;
     word-break: break-word;
   }
 }

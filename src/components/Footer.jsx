@@ -1,10 +1,12 @@
 import "../css/Footer.css";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <p className="copyright">
-        © {new Date().getFullYear()} Avv. Federica D’Alessandro Lojacono – Tutti i diritti riservati
+        © {currentYear} Avv. Federica D’Alessandro Lojacono – Tutti i diritti riservati
       </p>
       <p className="credits">
         Sito web realizzato da{" "}

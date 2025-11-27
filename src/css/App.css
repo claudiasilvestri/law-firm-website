@@ -63,7 +63,7 @@ i, .icon, .fa, .fab, .fas, .far, .fal {
 }
 
 :focus {
-  outline: 2px solid #d4af37; 
-  outline-offset: 2px;        
-  box-shadow: none;            
+  outline: 2px solid #d4af37;
+  outline-offset: 2px;
+  box-shadow: none;
 }

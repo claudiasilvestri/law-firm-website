@@ -3,6 +3,35 @@ import { Helmet } from "react-helmet-async";
 import "../css/Contact.css";
 import ContactForm from "../components/ContactForm";
 
+const contactDetails = [
+  {
+    icon: "fa-solid fa-envelope",
+    label: "Invia una email a Federica D’Alessandro Lojacono",
+    href: "mailto:avvfedericadalessandrolojacono@gmail.com",
+    text: "avvfedericadalessandrolojacono@gmail.com"
+  },
+  {
+    icon: "fa-solid fa-phone",
+    label: "Chiama Federica D’Alessandro Lojacono",
+    href: "tel:+393925068181",
+    text: "+39 392 506 8181"
+  },
+  {
+    icon: "fa-solid fa-envelope-open-text",
+    label: "Invia una PEC a Federica D’Alessandro Lojacono",
+    href: "mailto:dalessandrolojacono.federica@avvocatibari.legalmail.it",
+    text: "dalessandrolojacono.federica@avvocatibari.legalmail.it"
+  },
+  {
+    icon: "fa-brands fa-linkedin",
+    label: "Visita il profilo LinkedIn di Federica D’Alessandro Lojacono",
+    href: "https://www.linkedin.com/in/federica-d-alessandro-lojacono-avvocatocivilista/",
+    text: "LinkedIn",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }
+];
+
 export default function Contact() {
   return (
     <section className="contact-section" aria-label="Pagina Contatti">
@@ -23,44 +52,14 @@ export default function Contact() {
 
         <div className="contact-box" aria-label="Recapiti e contatti">
           <div className="contact-icons-vertical">
-            <div>
-              <i className="fa-solid fa-envelope" aria-hidden="true"></i>
-              <a
-                href="mailto:avvfedericadalessandrolojacono@gmail.com"
-                aria-label="Invia una email a Federica D’Alessandro Lojacono"
-              >
-                avvfedericadalessandrolojacono@gmail.com
-              </a>
-            </div>
-            <div>
-              <i className="fa-solid fa-phone" aria-hidden="true"></i>
-              <a
-                href="tel:+393925068181"
-                aria-label="Chiama Federica D’Alessandro Lojacono"
-              >
-                +39 392 506 8181
-              </a>
-            </div>
-            <div>
-              <i className="fa-solid fa-envelope-open-text" aria-hidden="true"></i>
-              <a
-                href="mailto:dalessandrolojacono.federica@avvocatibari.legalmail.it"
-                aria-label="Invia una PEC a Federica D’Alessandro Lojacono"
-              >
-                dalessandrolojacono.federica@avvocatibari.legalmail.it
-              </a>
-            </div>
-            <div>
-              <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
-              <a
-                href="https://www.linkedin.com/in/federica-d-alessandro-lojacono-avvocatocivilista/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visita il profilo LinkedIn di Federica D’Alessandro Lojacono"
-              >
-                LinkedIn
-              </a>
-            </div>
+            {contactDetails.map(({ icon, label, href, text, target, rel }) => (
+              <div key={href}>
+                <i className={icon} aria-hidden="true"></i>
+                <a href={href} aria-label={label} target={target} rel={rel}>
+                  {text}
+                </a>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -74,11 +73,9 @@ export default function Contact() {
             ></iframe>
           </div>
 
-          <div className="contact-form-wrapper">
-            <div className="form-box" aria-label="Modulo di contatto">
-              <h3>Scrivi un messaggio</h3>
-              <ContactForm />
-            </div>
+          <div className="form-box" aria-label="Modulo di contatto">
+            <h3>Scrivi un messaggio</h3>
+            <ContactForm />
           </div>
         </div>
       </div>

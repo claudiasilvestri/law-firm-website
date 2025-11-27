@@ -8,14 +8,10 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.innerWidth > 768) return; 
+      if (window.innerWidth > 768) return;
 
       const currentScrollY = window.scrollY;
-      if (currentScrollY > lastScrollY && currentScrollY > 80) {
-        setHidden(true); 
-      } else {
-        setHidden(false); 
-      }
+      setHidden(currentScrollY > lastScrollY && currentScrollY > 80);
       setLastScrollY(currentScrollY);
     };
 
@@ -28,16 +24,18 @@ export default function Navbar() {
     { name: "Chi Sono", path: "/about" },
     { name: "Servizi", path: "/services" },
     { name: "Contatti", path: "/contact" },
-    { name: "Approfondimenti", path: "/approfondimenti" }
+    { name: "Approfondimenti", path: "/approfondimenti" },
   ];
 
   return (
     <nav className={`navbar ${hidden ? "hidden" : ""}`}>
-      <div className="logo">⚖️ Avv. Federica D’Alessandro Lojacono</div>
+      <div className="logo" aria-label="Logo e nome dell'avvocato">
+        ⚖️ Avv. Federica D’Alessandro Lojacono
+      </div>
       <ul className="nav-links">
-        {navItems.map(item => (
-          <li key={item.name}>
-            <Link to={item.path}>{item.name}</Link>
+        {navItems.map(({ name, path }) => (
+          <li key={name}>
+            <Link to={path}>{name}</Link>
           </li>
         ))}
       </ul>

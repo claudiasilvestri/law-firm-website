@@ -2,19 +2,27 @@ import React, { useState } from "react";
 import "../css/Contact.css";
 
 export default function ContactForm() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [honeypot, setHoneypot] = useState("");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+    honeypot: "",
+  });
+
   const [status, setStatus] = useState(null);
   const [statusMessage, setStatusMessage] = useState("");
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus(null);
     setStatusMessage("");
 
-    if (honeypot) {
+    if (formData.honeypot) {
       setStatus("error");
       setStatusMessage("Invio non valido.");
       return;
@@ -24,15 +32,17 @@ export default function ContactForm() {
       const response = await fetch("https://formspree.io/f/mqaybweo", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({ name, email, message }),
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+        }),
       });
 
       if (response.ok) {
         setStatus("success");
         setStatusMessage("✅ Messaggio inviato con successo!");
-        setName("");
-        setEmail("");
-        setMessage("");
+        setFormData({ name: "", email: "", message: "", honeypot: "" });
       } else {
         setStatus("error");
         setStatusMessage("❌ Errore durante l'invio. Riprova più tardi.");
@@ -45,56 +55,60 @@ export default function ContactForm() {
 
   return (
     <form className="contact-form" onSubmit={handleSubmit}>
+      <label htmlFor="name" className="sr-only">Nome</label>
       <input
+        id="name"
+        name="name"
         type="text"
         placeholder="Nome"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
+        value={formData.name}
+        onChange={handleChange}
         required
-        style={{ lineHeight: "1.5", letterSpacing: "0.5px" }}
       />
 
+      <label htmlFor="email" className="sr-only">Email</label>
       <input
+        id="email"
+        name="email"
         type="email"
         placeholder="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
+        value={formData.email}
+        onChange={handleChange}
         required
-        style={{ lineHeight: "1.5", letterSpacing: "0.5px" }}
       />
 
+      <label htmlFor="message" className="sr-only">Messaggio</label>
       <textarea
+        id="message"
+        name="message"
         placeholder="Messaggio"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
+        value={formData.message}
+        onChange={handleChange}
         maxLength={500}
         required
-        style={{ lineHeight: "1.5", letterSpacing: "0.5px" }}
       />
-      <div className="message-counter">{message.length}/500</div>
+      <div className="message-counter">{formData.message.length}/500</div>
 
       <input
+        name="honeypot"
         type="text"
-        value={honeypot}
-        onChange={(e) => setHoneypot(e.target.value)}
+        value={formData.honeypot}
+        onChange={handleChange}
         style={{ display: "none" }}
         tabIndex="-1"
         autoComplete="off"
+        aria-hidden="true"
       />
 
-      <button
-        type="submit"
-        className="btn-cta"
-        style={{
-          fontFamily: "'Open Sans', sans-serif",
-          textTransform: "capitalize", 
-          cursor: "pointer",
-        }}
-      >
+      <button type="submit" className="btn-cta">
         Invia
       </button>
 
-      {status && <div className={`status-box ${status}`}>{statusMessage}</div>}
+      {status && (
+        <div className={`status-box ${status}`} role="alert">
+          {statusMessage}
+        </div>
+      )}
     </form>
   );
 }

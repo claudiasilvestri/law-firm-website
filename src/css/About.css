@@ -3,7 +3,6 @@
   max-width: 1100px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  background-color: transparent;
   color: var(--grigio-scuro);
 }
 
@@ -30,9 +29,9 @@
 .about-foto img {
   width: 100%;
   height: auto;
+  max-width: 250px;
   border-radius: 12px;
   object-fit: cover;
-  max-width: 250px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   margin-bottom: 1rem;
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -60,11 +59,9 @@
 
 .about-text p,
 .about-text ul {
-  font-family: 'Open Sans', sans-serif;
   margin-bottom: 0.8rem;
   line-height: 1.6;
   font-size: 0.9rem;
-  color: var(--grigio-scuro);
 }
 
 .about-text ul {
@@ -77,21 +74,20 @@
 
 .button-accent {
   display: block;
-  margin: 1rem auto 0 auto;
+  margin: 1rem auto 0;
   background-color: var(--blu-profondo);
   color: var(--white);
   padding: 0.8rem 1.5rem;
   border-radius: 12px;
   border: 2px solid #d4af37;
-  text-decoration: none;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
-  line-height: 1.6;
   font-weight: 600;
+  line-height: 1.6;
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
   cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
 }
 
 .button-accent:hover,

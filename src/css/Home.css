@@ -86,25 +86,16 @@
 }
 
 .button-accent:disabled {
-  background-color: var(--gray-light);
-  color: var(--gray-dark);
+  background-color: var(--grigio-chiaro);
+  color: var(--grigio-scuro);
   cursor: not-allowed;
   box-shadow: none;
-  border-color: var(--gray-dark);
+  border-color: var(--grigio-scuro);
 }
 
 @media (max-width: 1024px) {
   .home-section {
     background-image: url('/images/sfondo-tablet.jpg');
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .home-section {
-    height: auto;
-    align-items: flex-start;
-    overflow-y: auto;
-    padding-top: 2rem;
   }
 }
 
