@@ -18,7 +18,7 @@ const homeText = [
     content: (
       <>
         Credo in un approccio fondato sul <strong>dialogo diretto</strong> e sulla costruzione di
-        <strong> strategie personalizzate</strong>, perché ogni situazione richiede una
+        <strong> strategie personalizzate</strong>, poiché ogni situazione richiede una
         <strong> soluzione concreta e sostenibile</strong>.
       </>
     )
