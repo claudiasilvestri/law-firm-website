@@ -35,7 +35,7 @@ export default function Approfondimenti() {
             className="card-img"
           />
           <h2>{article.title}</h2>
-          <small>{article.date}</small>
+          <small><strong>{article.date}</strong></small>
           <p>{article.description}</p>
           <Link
             to={`/approfondimenti/${article.id}`}

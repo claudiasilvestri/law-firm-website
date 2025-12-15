@@ -39,7 +39,7 @@ export default function ArticlePage() {
       />
 
       <h1>{article.title}</h1>
-      <small>{article.date}</small>
+      <small><strong>{article.date}</strong></small>
 
       <div
         className="article-content"
