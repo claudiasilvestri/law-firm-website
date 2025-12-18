@@ -2,10 +2,10 @@ import React, { useEffect, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { articles } from "../data/articles.js";
 import "../css/Approfondimenti.css";
+import SEO from "../components/SEO";
 
 export default function Approfondimenti() {
   useEffect(() => {
-    document.title = "Approfondimenti | Federica D’Alessandro Lojacono";
   }, []);
 
   const mesi = useMemo(() => ({
@@ -26,6 +26,10 @@ export default function Approfondimenti() {
 
   return (
     <section className="approfondimenti-section" aria-label="Sezione approfondimenti">
+      <SEO
+        title="Approfondimenti | Federica D’Alessandro Lojacono"
+        description="Leggi gli approfondimenti e articoli legali di Federica D’Alessandro Lojacono."
+      />
       <h1>Approfondimenti</h1>
       {sortedArticles.map(article => (
         <div key={article.id} className="card">

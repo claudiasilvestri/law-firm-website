@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { useParams, Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import SEO from "../components/SEO";
 import { articles } from "../data/articles.js";
 import "../css/ArticlePage.css";
 
@@ -27,10 +27,10 @@ export default function ArticlePage() {
 
   return (
     <section className="article-page" aria-label={`Pagina articolo: ${article.title}`}>
-      <Helmet>
-        <title>{article.title}</title>
-        <meta name="description" content={article.description} />
-      </Helmet>
+      <SEO
+        title={`${article.title} | Federica D’Alessandro Lojacono`}
+        description={article.description}
+      />
 
       <img 
         src={article.image} 

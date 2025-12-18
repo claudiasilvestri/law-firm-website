@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
 import "../css/About.css";
+import SEO from "../components/SEO"; 
 
 export default function About() {
   const [isTablet, setIsTablet] = useState(false);
 
   useEffect(() => {
-    document.title = "Chi Sono | Federica D’Alessandro Lojacono";
-
     const handleResize = () => setIsTablet(window.innerWidth <= 1024);
     handleResize();
     window.addEventListener("resize", handleResize);
@@ -27,6 +26,11 @@ export default function About() {
 
   return (
     <section className="about-section">
+      <SEO
+        title="Chi Sono | Federica D’Alessandro Lojacono"
+        description="Scopri chi è Federica D’Alessandro Lojacono, avvocato specializzato in diritto civile, commerciale e societario."
+      />
+
       <h1>Chi Sono | Federica D’Alessandro Lojacono</h1>
       <div className="about-content">
         <div className="about-foto">

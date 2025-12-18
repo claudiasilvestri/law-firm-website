@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 import "../css/Home.css";
+import SEO from "../components/SEO";
 
 const homeText = [
   {
@@ -36,13 +36,10 @@ const homeText = [
 export default function Home() {
   return (
     <section className="home-section" aria-label="Pagina Home">
-      <Helmet>
-        <title>Home | Federica D’Alessandro Lojacono</title>
-        <meta
-          name="description"
-          content="Consulenza legale chiara, efficace e su misura a Bari. Federica D’Alessandro Lojacono offre supporto legale per persone, professionisti e imprese."
-        />
-      </Helmet>
+      <SEO
+        title="Home | Federica D’Alessandro Lojacono"
+        description="Consulenza legale chiara, efficace e su misura a Bari. Federica D’Alessandro Lojacono offre supporto legale per persone, professionisti e imprese."
+      />
 
       <div className="text-box">
         <h1>

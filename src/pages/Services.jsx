@@ -1,5 +1,5 @@
-import { Helmet } from "react-helmet-async";
 import "../css/Services.css";
+import SEO from "../components/SEO";
 
 const servicesData = [
   {
@@ -94,13 +94,10 @@ const servicesData = [
 export default function Services() {
   return (
     <section className="services-section" aria-label="Pagina Servizi Legali">
-      <Helmet>
-        <title>Servizi Legali | Federica D’Alessandro Lojacono</title>
-        <meta
-          name="description"
-          content="Scopri i servizi legali offerti da Federica D’Alessandro Lojacono a Bari: consulenza civile, societaria, contrattualistica, recupero crediti, mediazione e molto altro."
-        />
-      </Helmet>
+      <SEO
+        title="Servizi Legali | Federica D’Alessandro Lojacono"
+        description="Scopri i servizi legali offerti da Federica D’Alessandro Lojacono a Bari: consulenza civile, societaria, contrattualistica, recupero crediti, mediazione e molto altro."
+      />
 
       <h1>Servizi Legali | Federica D’Alessandro Lojacono</h1>
 

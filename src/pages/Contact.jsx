@@ -1,7 +1,7 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
 import "../css/Contact.css";
 import ContactForm from "../components/ContactForm";
+import SEO from "../components/SEO";
 
 const contactDetails = [
   {
@@ -35,13 +35,10 @@ const contactDetails = [
 export default function Contact() {
   return (
     <section className="contact-section" aria-label="Pagina Contatti">
-      <Helmet>
-        <title>Contatti | Studio Legale Federica D’Alessandro Lojacono</title>
-        <meta
-          name="description"
-          content="Per informazioni o consulenze legali contatta Federica D’Alessandro Lojacono tramite email, telefono o form online."
-        />
-      </Helmet>
+      <SEO
+        title="Contatti | Studio Legale Federica D’Alessandro Lojacono"
+        description="Per informazioni o consulenze legali contatta Federica D’Alessandro Lojacono tramite email, telefono o form online."
+      />
 
       <div className="contact-container">
         <h2 className="contact-main-title">Contatti</h2>
