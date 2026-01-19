@@ -35,6 +35,35 @@ export const articles = [
     `
   },
   {
+    id: 8,
+    title: "Recupero crediti: come tutelarsi legalmente contro i mancati pagamenti",
+    date: "28 Dicembre 2025",
+    meta:
+      "Scopri come affrontare il recupero crediti in modo efficace, quali strumenti legali utilizzare e quando ricorrere all’assistenza di un avvocato per tutelare il tuo credito.",
+    description:
+      "Scopri come affrontare il recupero crediti in modo efficace, quali strumenti legali utilizzare e quando ricorrere all’assistenza di un avvocato per tutelare il tuo credito.",
+    image: "/images/articles/recupero-crediti.png",
+    imageCard: "/images/cards/recupero-crediti.png",
+    alt: "Illustrazione recupero crediti",
+    content: `
+      <h2>Recupero crediti: strumenti e strategie per ottenere il pagamento</h2>
+      <p>Il recupero crediti riguarda sia i privati sia le imprese ed è essenziale per evitare squilibri economici e finanziari. Affrontare correttamente un mancato pagamento consente di aumentare in modo significativo le possibilità di recuperare le somme dovute e di ridurre i rischi legati all’insolvenza del debitore.</p>
+
+      <h3>La fase stragiudiziale del recupero crediti</h3>
+      <p>Il primo passo è generalmente rappresentato dall’avvio della fase stragiudiziale, che comprende l’invio di solleciti di pagamento e di una formale messa in mora.</p>
+      <p>Questa fase consente spesso di ottenere il pagamento senza ricorrere al tribunale, con un notevole risparmio di tempi e costi, e permette di preservare, ove possibile, il rapporto tra le parti.</p>
+
+      <h3>Gli strumenti giudiziali per il recupero del credito</h3>
+      <p>Quando il debitore continua a non adempiere, è possibile ricorrere agli strumenti giudiziali. Tra questi rientra il ricorso per <strong>decreto ingiuntivo</strong>, che consente di ottenere rapidamente un titolo esecutivo. In caso di ulteriore inadempimento, si può procedere con la fase esecutiva, mediante atto di precetto ed eventuale pignoramento di beni, conti correnti o crediti del debitore.</p>
+
+      <h3>Alternative al contenzioso</h3>
+      <p>In alcune situazioni, la mediazione o una trattativa assistita possono rappresentare soluzioni efficaci per chiudere la controversia in modo più rapido e meno oneroso, evitando il contenzioso giudiziale e favorendo un accordo tra le parti.</p>
+
+      <h3>Come agire</h3>
+      <p>Valutare attentamente la solvibilità del debitore e scegliere lo strumento più adeguato con l’assistenza di un professionista qualificato permette di tutelare efficacemente il proprio credito e di aumentare le probabilità di recupero.</p>
+    `
+  },
+  {
     id: 7,
     title: "Inadempimento contrattuale: cosa fare quando una parte non rispetta il contratto",
     date: "15 Dicembre 2025",
@@ -234,7 +263,7 @@ export const articles = [
       <ol>
         <li><strong>Raccogliere tutta la documentazione</strong> dei debiti</li>
         <li><strong>Presentare l’istanza</strong> presso l’Organismo di Composizione della Crisi</li>
-        <li><strong>Elaborare un piano</strong> con l’aiuto di un professionista</li>
+        <li><strong>Elaborare un piano</strong> con l’aiuto di un professionista</strong></li>
       </ol>
 
       <h3>Come agire</h3>
