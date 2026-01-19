@@ -1,8 +1,45 @@
 export const articles = [
   {
+    id: 9,
+    title: "Crisi d’impresa: segnali da non sottovalutare e strumenti di tutela",
+    date: "15 Gennaio 2026",
+    meta:
+      "Scopri quali sono i segnali di crisi d’impresa, gli obblighi dell’imprenditore e gli strumenti legali per affrontare le difficoltà e tutelare la continuità aziendale.",
+    description:
+      "Scopri quali sono i segnali di crisi d’impresa, gli obblighi dell’imprenditore e gli strumenti legali per affrontare le difficoltà e tutelare la continuità aziendale.",
+    image: "/images/articles/crisi-impresa.png",
+    imageCard: "/images/cards/crisi-impresa.png",
+    alt: "Illustrazione crisi d'impresa",
+    content: `
+      <h2>Come riconoscere e gestire una crisi d’impresa</h2>
+      <p>La crisi d’impresa è spesso il risultato di difficoltà che si manifestano progressivamente nel tempo. Riconoscere per tempo i segnali di allarme consente all’imprenditore di intervenire prima che la situazione diventi irreversibile, limitando i danni per l’attività e per i creditori.</p>
+
+      <h3>I principali segnali di crisi</h3>
+      <p>Tra i più comuni campanelli d’allarme rientrano:</p>
+      <ul>
+        <li>le difficoltà nel pagamento di fornitori, dipendenti e imposte</li>
+        <li>la riduzione costante dei ricavi</li>
+        <li>l’aumento dell’indebitamento e il ricorso frequente a nuova finanza</li>
+      </ul>
+      <p>Individuare tempestivamente questi segnali è fondamentale per affrontare la crisi in modo consapevole.</p>
+
+      <h3>Gli obblighi dell’imprenditore</h3>
+      <p>La normativa impone all’imprenditore l’obbligo di monitorare costantemente la situazione economico-finanziaria dell’impresa e di attivarsi tempestivamente per limitare i danni ai creditori e alla continuità aziendale.</p>
+      <p>Un comportamento omissivo può comportare responsabilità e aggravare le conseguenze della crisi.</p>
+
+      <h3>Strumenti per affrontare la crisi d’impresa</h3>
+      <p>L’ordinamento mette a disposizione diversi strumenti legali di tutela, tra cui la <strong>composizione negoziata della crisi</strong> e gli accordi con i creditori, finalizzati a individuare soluzioni sostenibili e a favorire il risanamento dell’impresa, evitando il ricorso a procedure più invasive.</p>
+
+      <h3>Come agire</h3>
+      <p>Affrontare la crisi con il supporto di un professionista qualificato consente di scegliere lo strumento più adatto, di rispettare gli obblighi di legge e di gestire la situazione in modo efficace e responsabile.</p>
+    `
+  },
+  {
     id: 7,
     title: "Inadempimento contrattuale: cosa fare quando una parte non rispetta il contratto",
     date: "15 Dicembre 2025",
+    meta:
+      "Scopri cosa fare in caso di inadempimento contrattuale, quali strumenti legali utilizzare e gli errori da evitare per tutelare i tuoi diritti.",
     description:
       "Scopri cosa fare in caso di inadempimento contrattuale, quali strumenti legali utilizzare e gli errori da evitare per tutelare i tuoi diritti.",
     image: "/images/articles/inadempimento-contrattuale.png",
@@ -39,6 +76,8 @@ export const articles = [
     id: 3,
     title: "Forma societaria: come scegliere quella giusta per la tua attività",
     date: "30 Novembre 2025",
+    meta:
+      "Scopri come scegliere la forma societaria più adatta alla tua attività, considerando vantaggi, svantaggi e responsabilità legale.",
     description:
       "Scopri come scegliere la forma societaria più adatta alla tua attività, considerando vantaggi, svantaggi e responsabilità legale.",
     image: "/images/articles/forma-societaria.png",
@@ -70,6 +109,8 @@ export const articles = [
     id: 5,
     title: "Mediazione civile: guida pratica per risolvere le controversie",
     date: "22 Novembre 2025",
+    meta:
+      "Scopri come funziona la mediazione civile e perché è uno strumento efficace, rapido e conveniente rispetto al contenzioso tradizionale.",
     description:
       "Scopri come funziona la mediazione civile e perché è uno strumento efficace, rapido e conveniente rispetto al contenzioso tradizionale.",
     image: "/images/articles/mediazione-civile.png",
@@ -102,6 +143,8 @@ export const articles = [
     id: 1,
     title: "Responsabilità medica: come agire in caso di errore sanitario",
     date: "10 Novembre 2025",
+    meta:
+      "Scopri come riconoscere un errore medico, quali diritti hai e quali passi seguire per tutelarti legalmente in caso di malasanità.",
     description:
       "Scopri come riconoscere un errore medico, quali diritti hai e quali passi seguire per tutelarti legalmente in caso di malasanità.",
     image: "/images/articles/responsabilita-medica.png",
@@ -133,6 +176,8 @@ export const articles = [
     id: 6,
     title: "Discriminazione di genere sul lavoro: diritti e tutele",
     date: "30 Ottobre 2025",
+    meta:
+      "Scopri cosa prevede la legge italiana in materia di discriminazione di genere sul lavoro e quali strumenti hai per difendere i tuoi diritti.",
     description:
       "Scopri cosa prevede la legge italiana in materia di discriminazione di genere sul lavoro e quali strumenti hai per difendere i tuoi diritti.",
     image: "/images/articles/discriminazione-genere.png",
@@ -167,6 +212,8 @@ export const articles = [
     id: 2,
     title: "Sovraindebitamento: chi può accedere e come funziona la procedura",
     date: "22 Ottobre 2025",
+    meta:
+      "Scopri chi può accedere alla procedura di sovraindebitamento, come funziona e quali passi seguire per tutelarti legalmente.",
     description:
       "Scopri chi può accedere alla procedura di sovraindebitamento, come funziona e quali passi seguire per tutelarti legalmente.",
     image: "/images/articles/sovraindebitamento.png",
@@ -198,6 +245,8 @@ export const articles = [
     id: 4,
     title: "Contratti commerciali: clausole fondamentali da conoscere",
     date: "10 Ottobre 2025",
+    meta:
+      "Scopri quali sono le clausole principali dei contratti commerciali e come proteggere i tuoi interessi evitando errori legali.",
     description:
       "Scopri quali sono le clausole principali dei contratti commerciali e come proteggere i tuoi interessi evitando errori legali.",
     image: "/images/articles/contratti-commerciali.png",
