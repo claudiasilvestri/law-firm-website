@@ -1,46 +1,87 @@
 export const articles = [
-{
-  id: 10,
-  title: "Gestione delle crisi aziendali: strumenti legali per la continuità d’impresa",
-  date: "30 Gennaio 2026",
-  meta:
-    "La gestione della crisi aziendale richiede strumenti legali adeguati per tutelare l’impresa e favorire la continuità dell’attività economica.",
-  description:
-    "Scopri quali strumenti legali possono aiutare l’impresa ad affrontare una crisi e garantire la continuità aziendale.",
-  image: "/images/articles/gestione-crisi.png",
-  imageCard: "/images/cards/gestione-crisi.png",
-  alt: "Illustrazione gestione crisi aziendale",
-  content: `
-    <h2>Gestione delle crisi aziendali</h2>
+  {
+    id: 11,
+    title: "Consulenza legale per enti pubblici e società: servizi e vantaggi",
+    date: "16 Febbraio 2026",
+    meta:
+      "La consulenza legale per enti pubblici e società aiuta a prevenire contenziosi e a garantire il corretto svolgimento delle attività istituzionali e imprenditoriali.",
+    description:
+      "La consulenza legale per enti pubblici e società aiuta a prevenire contenziosi e a garantire il corretto svolgimento delle attività istituzionali e imprenditoriali.",
+    image: "/images/articles/consulenza-legale.png",
+    imageCard: "/images/cards/consulenza-legale.png",
+    alt: "Illustrazione consulenza legale per enti pubblici e società",
+    content: `
+      <h2>Consulenza legale per enti pubblici e società</h2>
 
-    <p>
-      La <strong>crisi aziendale</strong> non si manifesta improvvisamente, ma è spesso il risultato di difficoltà economiche e finanziarie che si accumulano nel tempo.
-      Affrontarla in modo tempestivo consente di tutelare l’impresa e di preservarne la <strong>continuità operativa</strong>.
-    </p>
+      <p>
+        La <strong>consulenza legale</strong> rappresenta un supporto fondamentale per <strong>enti pubblici e società</strong>, consentendo di affrontare le attività quotidiane e le decisioni strategiche con maggiore sicurezza giuridica.
+      </p>
 
-    <h3>Cos’è la crisi aziendale</h3>
-    <p>
-      La crisi si verifica quando l’impresa inizia a perdere l’equilibrio tra entrate e uscite, rendendo difficile il rispetto delle obbligazioni assunte.
-      Individuare precocemente questi segnali permette di intervenire prima che la situazione diventi irreversibile.
-    </p>
+      <h3>Il valore della consulenza preventiva</h3>
+      <p>
+        Un’assistenza legale continuativa permette di prevenire errori e irregolarità, riducendo il rischio di <strong>contenziosi</strong> e di responsabilità.
+      </p>
 
-    <h3>Strumenti legali per affrontare la crisi d’impresa</h3>
-    <p>
-      L’ordinamento prevede diversi <strong>strumenti legali di gestione della crisi</strong>, pensati per accompagnare l’imprenditore nella ricerca di soluzioni sostenibili.
-      Tali strumenti mirano a favorire il <strong>risanamento</strong> e a limitare l’impatto sui creditori.
-    </p>
+      <h3>Ambiti di intervento</h3>
+      <p>
+        La consulenza può riguardare la gestione dei <strong>rapporti contrattuali</strong>, l’interpretazione della normativa applicabile e il supporto alle decisioni organizzative.
+      </p>
 
-    <h3>Continuità d’impresa</h3>
-    <p>
-      L’obiettivo principale è garantire la <strong>continuità aziendale</strong>, evitando l’interruzione dell’attività e la dispersione del valore creato dall’impresa.
-    </p>
+      <h3>Benefici per enti e società</h3>
+      <p>
+        Affidarsi a un <strong>professionista qualificato</strong> consente di operare nel rispetto della legge e di migliorare l’efficienza dell’attività svolta.
+      </p>
 
-    <h3>Come agire</h3>
-    <p>
-      Affrontare la crisi con il supporto di un <strong>professionista qualificato</strong> consente di individuare la strategia più adeguata e di operare nel rispetto degli obblighi di legge.
-    </p>
-  `
-},
+      <h3>Come agire</h3>
+      <p>
+        Una consulenza personalizzata, calibrata sulle esigenze specifiche dell’ente o della società, garantisce un supporto efficace e mirato.
+      </p>
+    `
+  },
+
+  {
+    id: 10,
+    title: "Gestione delle crisi aziendali: strumenti legali per la continuità d’impresa",
+    date: "30 Gennaio 2026",
+    meta:
+      "La gestione della crisi aziendale richiede strumenti legali adeguati per tutelare l’impresa e favorire la continuità dell’attività economica.",
+    description:
+      "Scopri quali strumenti legali possono aiutare l’impresa ad affrontare una crisi e garantire la continuità aziendale.",
+    image: "/images/articles/gestione-crisi.png",
+    imageCard: "/images/cards/gestione-crisi.png",
+    alt: "Illustrazione gestione crisi aziendale",
+    content: `
+      <h2>Gestione delle crisi aziendali</h2>
+
+      <p>
+        La <strong>crisi aziendale</strong> non si manifesta improvvisamente, ma è spesso il risultato di difficoltà economiche e finanziarie che si accumulano nel tempo.
+        Affrontarla in modo tempestivo consente di tutelare l’impresa e di preservarne la <strong>continuità operativa</strong>.
+      </p>
+
+      <h3>Cos’è la crisi aziendale</h3>
+      <p>
+        La crisi si verifica quando l’impresa inizia a perdere l’equilibrio tra entrate e uscite, rendendo difficile il rispetto delle obbligazioni assunte.
+        Individuare precocemente questi segnali permette di intervenire prima che la situazione diventi irreversibile.
+      </p>
+
+      <h3>Strumenti legali per affrontare la crisi d’impresa</h3>
+      <p>
+        L’ordinamento prevede diversi <strong>strumenti legali di gestione della crisi</strong>, pensati per accompagnare l’imprenditore nella ricerca di soluzioni sostenibili.
+        Tali strumenti mirano a favorire il <strong>risanamento</strong> e a limitare l’impatto sui creditori.
+      </p>
+
+      <h3>Continuità d’impresa</h3>
+      <p>
+        L’obiettivo principale è garantire la <strong>continuità aziendale</strong>, evitando l’interruzione dell’attività e la dispersione del valore creato dall’impresa.
+      </p>
+
+      <h3>Come agire</h3>
+      <p>
+        Affrontare la crisi con il supporto di un <strong>professionista qualificato</strong> consente di individuare la strategia più adeguata e di operare nel rispetto degli obblighi di legge.
+      </p>
+    `
+  },
+
   {
     id: 9,
     title: "Crisi d’impresa: segnali da non sottovalutare e strumenti di tutela",
@@ -76,6 +117,7 @@ export const articles = [
       <p>Affrontare la crisi con il supporto di un professionista qualificato consente di scegliere lo strumento più adatto, di rispettare gli obblighi di legge e di gestire la situazione in modo efficace e responsabile.</p>
     `
   },
+
   {
     id: 8,
     title: "Recupero crediti: come tutelarsi legalmente contro i mancati pagamenti",
@@ -105,6 +147,7 @@ export const articles = [
       <p>Valutare attentamente la solvibilità del debitore e scegliere lo strumento più adeguato con l’assistenza di un professionista qualificato permette di tutelare efficacemente il proprio credito e di aumentare le probabilità di recupero.</p>
     `
   },
+
   {
     id: 7,
     title: "Inadempimento contrattuale: cosa fare quando una parte non rispetta il contratto",
@@ -143,6 +186,7 @@ export const articles = [
       <p>In caso di inadempimento è fondamentale analizzare tempestivamente il contratto e la situazione concreta, affidandosi a un professionista per individuare la strategia più efficace a tutela dei propri diritti.</p>
     `
   },
+
   {
     id: 3,
     title: "Forma societaria: come scegliere quella giusta per la tua attività",
@@ -176,6 +220,7 @@ export const articles = [
       <p>Consulta un <strong>professionista</strong> per scegliere la forma societaria più adatta al tuo progetto e valutare eventuali rischi.</p>
     `
   },
+
   {
     id: 5,
     title: "Mediazione civile: guida pratica per risolvere le controversie",
@@ -210,6 +255,7 @@ export const articles = [
       <p>Valuta la <strong>mediazione</strong> come alternativa al tribunale con l’aiuto di un <strong>professionista</strong> per risolvere la controversia efficacemente.</p>
     `
   },
+
   {
     id: 1,
     title: "Responsabilità medica: come agire in caso di errore sanitario",
@@ -243,6 +289,7 @@ export const articles = [
       <p>Agire <strong>tempestivamente</strong> è fondamentale per tutelare i propri diritti e aumentare le possibilità di un risarcimento adeguato.</p>
     `
   },
+
   {
     id: 6,
     title: "Discriminazione di genere sul lavoro: diritti e tutele",
@@ -279,6 +326,7 @@ export const articles = [
       <p>Consulta subito un <strong>avvocato esperto</strong> in caso di discriminazioni sul lavoro per tutelare i tuoi diritti.</p>
     `
   },
+
   {
     id: 2,
     title: "Sovraindebitamento: chi può accedere e come funziona la procedura",
@@ -305,13 +353,14 @@ export const articles = [
       <ol>
         <li><strong>Raccogliere tutta la documentazione</strong> dei debiti</li>
         <li><strong>Presentare l’istanza</strong> presso l’Organismo di Composizione della Crisi</li>
-        <li><strong>Elaborare un piano</strong> con l’aiuto di un professionista</strong></li>
+        <li><strong>Elaborare un piano</strong> con l’aiuto di un professionista</li>
       </ol>
 
       <h3>Come agire</h3>
       <p>Evita nuovi debiti durante la procedura e collabora con il <strong>professionista</strong> che ti segue per tutelare i tuoi interessi.</p>
     `
   },
+
   {
     id: 4,
     title: "Contratti commerciali: clausole fondamentali da conoscere",
