@@ -1,6 +1,7 @@
 export const articles = [
-  {
-    id: 12,
+    {
+  
+      id: 12,
     title: "Fallimento e procedure concorsuali: cosa sapere per proteggere l’impresa",
     date: "27 Febbraio 2026",
     meta:
