@@ -1,5 +1,49 @@
 export const articles = [
   {
+    id: 12,
+    title: "Fallimento e procedure concorsuali: cosa sapere per proteggere l’impresa",
+    date: "27 Febbraio 2026",
+    meta:
+      "Le procedure concorsuali consentono di gestire l’insolvenza dell’impresa tutelando creditori e patrimonio aziendale.",
+    description:
+      "Le procedure concorsuali consentono di gestire l’insolvenza dell’impresa tutelando creditori e patrimonio aziendale.",
+    image: "/images/articles/fallimento-procedure-concorsuali.png",
+    imageCard: "/images/cards/fallimento-procedure-concorsuali.png",
+    alt: "Illustrazione fallimento e procedure concorsuali",
+    content: `
+      <h2>Fallimento e procedure concorsuali: come gestire l’insolvenza e proteggere l’impresa</h2>
+
+      <p>
+        Quando un’impresa non è più in grado di far fronte regolarmente ai propri impegni, può rendersi necessario il ricorso alle <strong>procedure concorsuali</strong>.
+        Affrontare la situazione in modo tempestivo aiuta a gestire l’<strong>insolvenza</strong> e a ridurre l’impatto sui <strong>creditori</strong> e sul patrimonio aziendale.
+      </p>
+
+      <h3>Quando si parla di insolvenza</h3>
+      <p>
+        L’<strong>insolvenza</strong> si manifesta quando l’imprenditore non riesce più a soddisfare le obbligazioni assunte in modo stabile e continuativo.
+        Riconoscere per tempo i segnali di difficoltà finanziaria è fondamentale per valutare le soluzioni disponibili ed evitare un aggravamento della crisi.
+      </p>
+
+      <h3>Le principali procedure</h3>
+      <p>
+        Le <strong>procedure concorsuali</strong> hanno lo scopo di regolare i rapporti con i creditori e di gestire il patrimonio dell’impresa in modo ordinato, secondo quanto previsto dalla normativa.
+        La scelta dello strumento più adeguato può incidere in modo significativo sugli esiti della procedura e sulla tutela dei soggetti coinvolti.
+      </p>
+
+      <h3>Tutela dei soggetti coinvolti</h3>
+      <p>
+        Una corretta gestione della procedura consente di tutelare sia l’impresa sia i creditori, garantendo trasparenza e riducendo il rischio di ulteriori aggravamenti della situazione.
+        L’obiettivo è preservare, ove possibile, il valore dell’attività e assicurare una gestione conforme alle regole.
+      </p>
+
+      <h3>Come agire</h3>
+      <p>
+        Affrontare una <strong>procedura concorsuale</strong> con l’assistenza di un <strong>professionista esperto</strong> è essenziale per tutelare i propri diritti, valutare le alternative disponibili e gestire correttamente gli adempimenti richiesti.
+      </p>
+    `
+  },
+
+  {
     id: 11,
     title: "Consulenza legale per enti pubblici e società: servizi e vantaggi",
     date: "16 Febbraio 2026",
@@ -375,7 +419,7 @@ export const articles = [
     content: `
       <h2>Contratti commerciali</h2>
       <p>I <strong>contratti commerciali</strong> regolano i rapporti tra imprese o professionisti. Conoscere le <strong>clausole principali</strong> è fondamentale per proteggere i propri interessi.</p>
-      
+
       <h3>Clausole principali</h3>
       <ul>
         <li><strong>Oggetto del contratto:</strong> definisce chi fa cosa e con quali termini.</li>
