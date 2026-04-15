@@ -1,4 +1,89 @@
 export const articles = [
+
+{
+id: 15,
+title: "Strategie legali per la gestione dei debiti societari",
+date: "15 Aprile 2026",
+meta: "Le strategie legali per la gestione dei debiti societari aiutano l’impresa ad affrontare le difficoltà finanziarie in modo strutturato.",
+description: "Le strategie legali per la gestione dei debiti societari aiutano l’impresa ad affrontare le difficoltà finanziarie in modo strutturato.",
+image: "/images/articles/strategie-legali.png",
+imageCard: "/images/cards/strategie-legali.png",
+alt: "Illustrazione gestione debiti societari",
+content: `
+<h2>Strategie legali per la gestione dei debiti societari</h2>
+
+<p>
+La <strong>gestione dei debiti societari</strong> rappresenta una fase delicata per qualsiasi impresa. Le difficoltà finanziarie possono compromettere la stabilità aziendale e, se non affrontate correttamente, evolvere in situazioni più gravi come la crisi o l’insolvenza.
+</p>
+
+<p>
+Adottare un approccio consapevole e pianificato consente di individuare soluzioni efficaci, ridurre i rischi e, quando possibile, garantire la continuità dell’attività.
+</p>
+
+<h3>Analisi della situazione debitoria</h3>
+<p>
+Il primo passo consiste in una valutazione completa della posizione debitoria dell’impresa. È fondamentale analizzare:
+</p>
+
+<ul>
+<li>l’ammontare complessivo dei debiti</li>
+<li>le scadenze e le condizioni di pagamento</li>
+<li>la tipologia dei creditori</li>
+<li>la sostenibilità finanziaria nel tempo</li>
+</ul>
+
+<p>
+Una corretta analisi consente di comprendere la gravità della situazione e di individuare le possibili strategie di intervento.
+</p>
+
+<h3>Strumenti legali per la gestione dei debiti</h3>
+<p>
+L’ordinamento prevede diversi strumenti per affrontare le difficoltà finanziarie e riorganizzare il debito:
+</p>
+
+<ul>
+<li><strong>accordi di ristrutturazione dei debiti</strong>, per ridefinire le condizioni con i creditori</li>
+<li><strong>piani di risanamento</strong>, finalizzati al riequilibrio economico-finanziario</li>
+<li><strong>composizione negoziata della crisi</strong>, per trovare soluzioni condivise</li>
+<li><strong>procedure concorsuali</strong>, nei casi più complessi</li>
+</ul>
+
+<p>
+La scelta dello strumento più adeguato dipende dalla situazione concreta e dalle prospettive di recupero dell’impresa.
+</p>
+
+<h3>Riduzione dei rischi</h3>
+<p>
+Una strategia legale adeguata consente di limitare le conseguenze negative della crisi debitoria, tra cui:
+</p>
+
+<ul>
+<li>azioni esecutive da parte dei creditori</li>
+<li>perdita di liquidità</li>
+<li>danneggiamento della reputazione aziendale</li>
+<li>interruzione dell’attività</li>
+</ul>
+
+<p>
+Intervenire tempestivamente è essenziale per preservare il valore dell’impresa.
+</p>
+
+<h3>L’importanza della pianificazione</h3>
+<p>
+Una gestione strutturata dei debiti richiede una pianificazione attenta e una visione strategica. Monitorare costantemente la situazione finanziaria consente di prevenire l’aggravarsi delle difficoltà e di adottare soluzioni sostenibili.
+</p>
+
+<h3>Come agire</h3>
+<p>
+Affrontare la gestione dei debiti con il supporto di un <strong>professionista esperto</strong> consente di individuare le strategie più efficaci e di gestire la situazione in modo consapevole.
+</p>
+
+<p>
+Un intervento tempestivo e qualificato permette di tutelare l’impresa e di costruire un percorso di risanamento nel lungo periodo.
+</p>
+`
+},
+
 {
 id: 14,
 title: "Clausole contrattuali avanzate: come tutelare l’impresa da rischi nascosti",
