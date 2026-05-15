@@ -1,4 +1,131 @@
 export const articles = [
+
+ {
+  id: 17,
+  title: "Fattura non pagata: strumenti legali per il recupero del credito",
+  date: "15 Maggio 2026",
+  meta: "Scopri quali strumenti legali utilizzare per recuperare una fattura non pagata e come agire rapidamente contro i mancati pagamenti.",
+  description: "Scopri quali strumenti legali utilizzare per recuperare una fattura non pagata e come agire rapidamente contro i mancati pagamenti.",
+  image: "/images/articles/cliente-fattura.png",
+  imageCard: "/images/cards/cliente-fattura.png",
+  alt: "Illustrazione recupero credito per fattura non pagata",
+  content: `
+<p>
+Il <strong>mancato pagamento di una fattura</strong> rappresenta uno dei problemi più frequenti per imprese e professionisti. Ritardi nei pagamenti o vere e proprie situazioni di insolvenza possono compromettere la liquidità aziendale e creare difficoltà nella gestione ordinaria dell’attività.
+</p>
+
+<p>
+Per questo motivo è fondamentale conoscere gli strumenti giuridici disponibili per il <strong>recupero del credito</strong> e intervenire tempestivamente per aumentare le possibilità di ottenere il pagamento delle somme dovute.
+</p>
+
+<h3>Quando una fattura diventa insoluta</h3>
+<p>
+Una fattura si considera insoluta quando il debitore non effettua il pagamento entro i termini concordati. In queste situazioni è importante non sottovalutare il problema e attivarsi rapidamente per evitare che il recupero diventi più complesso.
+</p>
+
+<p>
+Tra le situazioni più frequenti vi sono:
+</p>
+
+<ul>
+<li>ritardi ripetuti nei pagamenti</li>
+<li>mancata risposta ai solleciti</li>
+<li><strong>difficoltà economiche del debitore</strong></li>
+<li>contestazioni strumentali della fattura</li>
+</ul>
+
+<p>
+Un intervento immediato consente spesso di risolvere la situazione prima che il debitore diventi definitivamente insolvente.
+</p>
+
+<h3>La fase stragiudiziale del recupero crediti</h3>
+<p>
+La <strong>fase stragiudiziale</strong> rappresenta il primo tentativo di recupero del credito senza ricorrere all’autorità giudiziaria. In molti casi, una gestione corretta di questa fase consente di ottenere il pagamento in tempi più rapidi e con costi inferiori.
+</p>
+
+<p>
+Gli strumenti più utilizzati sono:
+</p>
+
+<ul>
+<li>solleciti scritti</li>
+<li><strong>diffide formali di pagamento</strong></li>
+<li>trattative con il debitore</li>
+<li>accordi e piani di rientro del debito</li>
+</ul>
+
+<p>
+La fase bonaria permette inoltre di preservare, quando possibile, i rapporti commerciali tra le parti.
+</p>
+
+<h3>Quando è necessario il recupero giudiziale</h3>
+<p>
+Se il debitore non risponde ai solleciti o rifiuta il pagamento, può essere necessario avviare un’<strong>azione giudiziale</strong> per ottenere un titolo esecutivo.
+</p>
+
+<p>
+Uno degli strumenti più utilizzati è il <strong>decreto ingiuntivo</strong>, che consente al creditore di ottenere rapidamente un provvedimento giudiziario per il recupero delle somme dovute.
+</p>
+
+<p>
+Una volta ottenuto il titolo esecutivo, è possibile procedere con azioni esecutive come:
+</p>
+
+<ul>
+<li>pignoramento dei conti correnti</li>
+<li>pignoramento di beni mobili o immobili</li>
+<li><strong>pignoramento presso terzi</strong></li>
+</ul>
+
+<p>
+Questi strumenti consentono di agire concretamente sul patrimonio del debitore per soddisfare il credito.
+</p>
+
+<h3>I rischi dei mancati pagamenti</h3>
+<p>
+Le fatture insolute possono incidere negativamente sulla gestione aziendale e compromettere l’equilibrio finanziario dell’impresa.
+</p>
+
+<ul>
+<li>riduzione della liquidità disponibile</li>
+<li><strong>difficoltà nei pagamenti verso fornitori e dipendenti</strong></li>
+<li>aumento dell’indebitamento</li>
+<li>rallentamento dell’attività economica</li>
+</ul>
+
+<p>
+Una gestione tempestiva del recupero crediti consente di limitare queste conseguenze e di proteggere la stabilità dell’impresa.
+</p>
+
+<h3>L’importanza della tempestività</h3>
+<p>
+Nel <strong>recupero crediti</strong>, il fattore tempo è determinante. Più si ritarda l’avvio delle procedure, maggiore è il rischio che il debitore diventi insolvente o renda più difficile il recupero delle somme.
+</p>
+
+<p>
+Agire rapidamente consente di aumentare le probabilità di successo e di limitare le conseguenze economiche negative per l’impresa.
+</p>
+
+<h3>Il ruolo del professionista</h3>
+<p>
+Ogni situazione richiede una valutazione specifica. Il supporto di un <strong>professionista esperto</strong> consente di individuare la strategia più efficace, scegliere gli strumenti più adeguati e gestire correttamente tutte le fasi del recupero.
+</p>
+
+<p>
+Una gestione strutturata del credito permette di tutelare gli interessi dell’impresa e di ridurre il rischio di perdite economiche nel lungo periodo.
+</p>
+
+<h3>Come agire</h3>
+<p>
+In presenza di una fattura non pagata, è importante non attendere troppo tempo prima di intervenire. Una valutazione tempestiva della situazione e l’assistenza di un professionista consentono di pianificare un’azione efficace per il recupero del credito.
+</p>
+
+<p>
+Affrontare rapidamente il problema rappresenta la soluzione migliore per proteggere la liquidità aziendale e garantire maggiore sicurezza nella gestione dell’attività.
+</p>
+`
+},
+
 {
 id: 16,
 title: "Tutela patrimoniale dell’imprenditore: strumenti legali per proteggere i propri beni",
