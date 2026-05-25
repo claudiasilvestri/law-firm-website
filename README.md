@@ -1,29 +1,25 @@
-# ⚖️ Law Firm Website
+⚖️ Law Firm Website
 
-Professional multi-page website developed for a civil law firm, focused on clarity, accessibility, responsive design, and SEO-oriented structure.
+Professional multi-page website developed for a civil law firm, focused on clarity, accessibility, and SEO-oriented content structure.
 
 The project includes legal service pages, informative content sections, responsive layouts, and a professional user experience optimized for both desktop and mobile devices.
 
----
+✨ Features
 
-# ✨ Features
+📱 Fully responsive design  
+⚖️ Multi-page legal services website  
+🧩 Reusable React components  
+📰 Dynamic insights/articles section  
+🔎 SEO-oriented structure  
+🎨 Professional and consistent UI  
+🚀 Fast Vite development environment  
 
-- 📱 Fully responsive design
-- ⚖️ Multi-page legal services website
-- 🧩 Reusable React components
-- 📰 Dynamic insights/articles section
-- 🔎 SEO-oriented structure
-- 🎨 Professional and consistent UI
-- 🚀 Fast Vite development environment
+🛠️ Tech Stack
 
----
-
-# 🛠️ Tech Stack
-
-- React
-- Vite
-- JavaScript
-- CSS
+React  
+Vite  
+JavaScript  
+CSS  
 
 ---
 
