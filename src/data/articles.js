@@ -1,5 +1,89 @@
 export const articles = [
 
+{
+  id: 18,
+  title: "Responsabilità degli amministratori di società: quando rispondono dei debiti",
+  date: "29 Maggio 2026",
+  meta: "Scopri quando gli amministratori di società possono essere chiamati a rispondere dei danni e delle conseguenze derivanti da una gestione non corretta.",
+  description: "Scopri quando gli amministratori di società possono essere chiamati a rispondere dei danni e delle conseguenze derivanti da una gestione non corretta.",
+  image: "/images/articles/responsabilita-amministratori.png",
+  imageCard: "/images/cards/responsabilita-amministratori.png",
+  alt: "Illustrazione responsabilità degli amministratori di società",
+  content: `
+<h2>Responsabilità degli amministratori di società: quando rispondono dei debiti</h2>
+
+<p>
+Gli <strong>amministratori di società</strong> svolgono un ruolo centrale nella gestione dell’impresa. Le loro decisioni possono incidere direttamente sulla situazione economica della società e sugli interessi dei soci e dei creditori.
+</p>
+
+<p>
+Quando la gestione non è corretta o vengono violati gli obblighi previsti dalla legge, gli amministratori possono essere chiamati a rispondere dei danni causati.
+</p>
+
+<h3>Il ruolo dell’amministratore</h3>
+
+<p>
+L’amministratore ha il compito di gestire la società nel rispetto della legge, dello statuto e degli interessi della società stessa.
+</p>
+
+<p>
+Tra i principali obblighi vi sono:
+</p>
+
+<ul>
+<li><strong>gestione diligente dell’impresa</strong></li>
+<li>corretta tenuta della contabilità</li>
+<li>tutela del patrimonio sociale</li>
+<li>rispetto degli obblighi fiscali e contributivi</li>
+</ul>
+
+<p>
+Questi obblighi richiedono una gestione attenta e responsabile.
+</p>
+
+<h3>Quando nasce la responsabilità</h3>
+
+<p>
+La responsabilità degli amministratori può sorgere quando la gestione della società provoca danni.
+</p>
+
+<p>
+Ciò può avvenire, ad esempio, in caso di:
+</p>
+
+<ul>
+<li>gestione imprudente o negligente</li>
+<li><strong>violazione della legge o dello statuto</strong></li>
+<li>mancato intervento in presenza di una crisi aziendale</li>
+<li>operazioni che danneggiano la società o i creditori</li>
+</ul>
+
+<p>
+In queste situazioni, i soci o i creditori possono promuovere azioni legali per ottenere il risarcimento dei danni.
+</p>
+
+<h3>L’importanza di una gestione corretta</h3>
+
+<p>
+Una gestione trasparente e conforme alla normativa riduce il rischio di responsabilità.
+</p>
+
+<p>
+Monitorare costantemente la situazione economica dell’impresa e intervenire tempestivamente in caso di difficoltà rappresenta uno degli aspetti più importanti della gestione societaria.
+</p>
+
+<h3>Come agire</h3>
+
+<p>
+Una gestione societaria corretta richiede attenzione costante e il rispetto degli obblighi previsti dalla legge. Affidarsi a un <strong>professionista esperto</strong> consente di prevenire rischi, valutare eventuali criticità e adottare strategie adeguate per tutelare la società e i soggetti coinvolti.
+</p>
+
+<p>
+Un intervento tempestivo permette di ridurre le conseguenze di eventuali problematiche e garantire una gestione più sicura e consapevole nel lungo periodo.
+</p>
+`
+},
+
  {
   id: 17,
   title: "Fattura non pagata: strumenti legali per il recupero del credito",
