@@ -8,6 +8,11 @@ export default function Footer() {
       <p className="copyright">
         © {currentYear} Avv. Federica D’Alessandro Lojacono – Tutti i diritti riservati
       </p>
+
+      <p className="vat">
+        P. IVA 07282120729
+      </p>
+
       <p className="credits">
         Sito web realizzato da{" "}
         <a

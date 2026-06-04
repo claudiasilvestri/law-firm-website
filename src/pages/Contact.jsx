@@ -3,27 +3,30 @@ import "../css/Contact.css";
 import ContactForm from "../components/ContactForm";
 import SEO from "../components/SEO";
 
+import { FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
+import { FaEnvelopeOpenText } from "react-icons/fa6";
+
 const contactDetails = [
   {
-    icon: "fa-solid fa-envelope",
+    icon: <FaEnvelope />,
     label: "Invia una email a Federica D’Alessandro Lojacono",
     href: "mailto:avvfedericadalessandrolojacono@gmail.com",
     text: "avvfedericadalessandrolojacono@gmail.com"
   },
   {
-    icon: "fa-solid fa-phone",
+    icon: <FaPhone />,
     label: "Chiama Federica D’Alessandro Lojacono",
     href: "tel:+393925068181",
     text: "+39 392 506 8181"
   },
   {
-    icon: "fa-solid fa-envelope-open-text",
+    icon: <FaEnvelopeOpenText />,
     label: "Invia una PEC a Federica D’Alessandro Lojacono",
     href: "mailto:dalessandrolojacono.federica@avvocatibari.legalmail.it",
     text: "dalessandrolojacono.federica@avvocatibari.legalmail.it"
   },
   {
-    icon: "fa-brands fa-linkedin",
+    icon: <FaLinkedin />,
     label: "Visita il profilo LinkedIn di Federica D’Alessandro Lojacono",
     href: "https://www.linkedin.com/in/federica-d-alessandro-lojacono-avvocatocivilista/",
     text: "LinkedIn",
@@ -42,21 +45,30 @@ export default function Contact() {
 
       <div className="contact-container">
         <h2 className="contact-main-title">Contatti</h2>
+
         <p className="contact-subtitle">
-          Per informazioni, consulenze o appuntamenti, puoi contattarmi tramite i recapiti qui sotto
-          oppure compilando il form.
+          Per informazioni, consulenze o appuntamenti, puoi contattarmi tramite
+          i recapiti qui sotto oppure compilando il form.
         </p>
 
         <div className="contact-box" aria-label="Recapiti e contatti">
           <div className="contact-icons-vertical">
-            {contactDetails.map(({ icon, label, href, text, target, rel }) => (
-              <div key={href}>
-                <i className={icon} aria-hidden="true"></i>
-                <a href={href} aria-label={label} target={target} rel={rel}>
-                  {text}
-                </a>
-              </div>
-            ))}
+            {contactDetails.map(
+              ({ icon, label, href, text, target, rel }) => (
+                <div key={href}>
+                  <span aria-hidden="true">{icon}</span>
+
+                  <a
+                    href={href}
+                    aria-label={label}
+                    target={target}
+                    rel={rel}
+                  >
+                    {text}
+                  </a>
+                </div>
+              )
+            )}
           </div>
         </div>
 
@@ -67,7 +79,7 @@ export default function Contact() {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.123456789!2d16.8723!3d41.1251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1347a3e1a1c2b1f1%3A0xabcdef123456789!2sPiazza%20Garibaldi%2049%2C%2070100%20Bari!5e0!3m2!1sit!2sit!4v1696375600000!5m2!1sit!2sit"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            />
           </div>
 
           <div className="form-box" aria-label="Modulo di contatto">
