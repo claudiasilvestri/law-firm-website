@@ -2,7 +2,7 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 4rem 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   color: var(--grigio-scuro);
@@ -29,7 +29,7 @@
 }
 
 .article-page h1 {
-  font-family: 'Lora', serif;
+  font-family: Georgia, serif;
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: var(--blu-profondo);
@@ -46,7 +46,7 @@
 }
 
 .article-content h3 {
-  font-family: 'Lora', serif;
+  font-family: Georgia, serif;
   font-size: 1.5rem;
   margin: 1.2rem 0 0.8rem;
   color: var(--blu-profondo);
@@ -97,7 +97,7 @@
 }
 
 .suggested-articles h3 {
-  font-family: 'Lora', serif;
+  font-family: Georgia, serif;
   font-size: 1.5rem;
   margin-bottom: 0.8rem;
   color: var(--blu-profondo);

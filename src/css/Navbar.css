@@ -10,7 +10,7 @@
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   border-bottom: 3px solid #d4af37;
   border-radius: 12px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   max-width: 100vw;
   box-sizing: border-box;
   transition: transform 0.3s ease;
@@ -22,7 +22,7 @@
 }
 
 .logo {
-  font-family: 'Lora', serif;
+  font-family: Georgia, serif;
   font-size: 1.3rem;
   font-weight: 600;
   color: #fff;

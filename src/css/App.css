@@ -19,7 +19,7 @@
 
 html, body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   background: var(--neutral-bg);
   color: var(--grigio-scuro);
   line-height: 1.6;

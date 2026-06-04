@@ -4,7 +4,7 @@
   justify-content: center;
   gap: 1.5rem;
   padding: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   color: var(--grigio-scuro);
 }
 
@@ -14,7 +14,7 @@
   margin-bottom: 1.5rem;
   font-size: 2rem;
   line-height: 1.6;
-  font-family: 'Lora', serif;
+  font-family: Georgia, serif;
   color: var(--blu-profondo);
 }
 
@@ -33,7 +33,7 @@
   min-height: 400px;
   position: relative;
   overflow: hidden;
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   color: var(--grigio-scuro);
 }
 
@@ -82,7 +82,7 @@
   font-size: 1.2rem;
   line-height: 1.4;
   margin: 0.5rem 0;
-  font-family: 'Lora', serif;
+  font-family: Georgia, serif;
   color: var(--blu-profondo);
 }
 
@@ -110,7 +110,7 @@
   border: 2px solid #d4af37;
   text-decoration: none;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   font-weight: 600;

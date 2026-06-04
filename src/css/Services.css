@@ -2,12 +2,12 @@
   max-width: 1000px;
   margin: 3rem auto;
   padding: 3rem 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   color: var(--grigio-scuro);
 }
 
 .services-section h1 {
-  font-family: 'Lora', serif;
+  font-family: Georgia, serif;
   font-size: 2rem;
   line-height: 1.4;
   font-weight: 600;
@@ -24,7 +24,7 @@
 }
 
 .services-intro h2 {
-  font-family: 'Lora', serif;
+  font-family: Georgia, serif;
   font-size: 1.6rem;
   line-height: 1.4;
   font-weight: 600;
@@ -33,7 +33,7 @@
 }
 
 .services-intro p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   font-weight: 400;
@@ -58,7 +58,7 @@
   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
   border: 2px solid #d4af37;
   overflow: hidden;
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   color: var(--grigio-scuro);
   transition: transform 0.2s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
@@ -88,7 +88,7 @@
 }
 
 .service h2 {
-  font-family: 'Lora', serif;
+  font-family: Georgia, serif;
   font-size: 1.6rem;
   line-height: 1.4;
   font-weight: 600;
@@ -97,7 +97,7 @@
 }
 
 .service p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   font-weight: 400;
@@ -123,7 +123,7 @@
 }
 
 .services-section .button-accent {
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   font-weight: 600;

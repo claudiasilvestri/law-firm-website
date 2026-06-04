@@ -1,6 +1,6 @@
 .contact-section {
   padding: 4rem 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   color: var(--grigio-scuro);
 }
 
@@ -10,7 +10,7 @@
 }
 
 .contact-main-title {
-  font-family: 'Lora', serif;
+  font-family: Georgia, serif;
   color: var(--blu-profondo);
   font-size: 2rem;
   line-height: 1.6;
@@ -19,7 +19,7 @@
 }
 
 .contact-subtitle {
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   color: var(--grigio-scuro);
   text-align: center;
   font-size: 1rem;
@@ -85,7 +85,7 @@
 }
 
 .contact-icons-vertical a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   color: var(--grigio-scuro);
   text-decoration: none;
   font-weight: 500;
@@ -132,7 +132,7 @@
 }
 
 .form-box h3 {
-  font-family: 'Lora', serif;
+  font-family: Georgia, serif;
   color: var(--blu-profondo);
   margin-bottom: 0.8rem;
   text-align: center;
@@ -145,7 +145,7 @@
   border: 1px solid var(--grigio-scuro);
   border-radius: 12px;
   margin-bottom: 1rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   color: var(--grigio-scuro);
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -171,7 +171,7 @@
 }
 
 .contact-form .btn-cta {
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
   padding: 0.8rem 1.5rem;
   background-color: var(--blu-profondo);
   color: var(--white);
@@ -205,7 +205,7 @@
   padding: 0.5rem;
   border-radius: 12px;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, sans-serif;
 }
 
 .status-box.success {
