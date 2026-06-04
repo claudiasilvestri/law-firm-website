@@ -2,7 +2,7 @@ export const articles = [
 {
   id: 19,
   title: "Revisione dei contratti commerciali: perché è importante aggiornarli",
-  date: "15 Giugno 2026",
+  date: "05 Giugno 2026",
   meta: "Scopri perché aggiornare periodicamente i contratti commerciali è fondamentale per ridurre i rischi legali e prevenire controversie.",
   description: "Scopri perché aggiornare periodicamente i contratti commerciali è fondamentale per ridurre i rischi legali e prevenire controversie.",
   image: "/images/articles/contratto-aggiornato.png",
