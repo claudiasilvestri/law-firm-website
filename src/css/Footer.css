@@ -4,15 +4,41 @@
   background: linear-gradient(135deg, #1E3A5F, #294a73);
   flex-shrink: 0;
   border-top: 3px solid #d4af37;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
   font-family: system-ui, sans-serif;
   border-radius: 12px 12px 0 0;
 }
 
 .footer .copyright,
 .footer .credits,
-.footer .credits a {
+.footer .credits a,
+.footer .vat {
   color: var(--white);
+}
+
+.footer .vat {
+  margin: 0.4rem 0;
+}
+
+.footer-policies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0.8rem 0;
+  flex-wrap: wrap;
+}
+
+.footer-policies a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-policies a:hover,
+.footer-policies a:focus {
+  color: #d4af37;
 }
 
 .footer .credits a {
@@ -20,7 +46,10 @@
   position: relative;
   padding: 0.1rem 0.3rem;
   border-radius: 12px;
-  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease,
+    box-shadow 0.3s ease;
   text-align: center;
   cursor: pointer;
   font-weight: 600;
@@ -28,8 +57,8 @@
 
 .footer .credits a:hover,
 .footer .credits a:focus {
-  background-color: rgba(255,255,255,0.1);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
   transform: translateY(-2px);
   outline: none;
 }
@@ -48,4 +77,15 @@
 .footer .credits a:hover::after,
 .footer .credits a:focus::after {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1rem;
+  }
+
+  .footer-policies {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
