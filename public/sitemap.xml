@@ -2,47 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.federicadalessandroavvocato.it/</loc>
+    <loc>https://www.federicadalessandroavvocato.it</loc>
     <priority>1.0</priority>
   </url>
-
   <url>
     <loc>https://www.federicadalessandroavvocato.it/about</loc>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://www.federicadalessandroavvocato.it/services</loc>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://www.federicadalessandroavvocato.it/contact</loc>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://www.federicadalessandroavvocato.it/approfondimenti</loc>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
-
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/1</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/2</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/3</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/4</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/5</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/6</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/7</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/8</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/9</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/10</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/11</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/12</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/13</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/14</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/15</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/16</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/17</loc><priority>0.5</priority></url>
-  <url><loc>https://www.federicadalessandroavvocato.it/approfondimenti/18</loc><priority>0.5</priority></url>
-
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/19</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/18</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/17</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/16</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/15</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/14</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/13</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/12</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/11</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/10</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/9</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/8</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/7</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/3</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/5</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/1</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/6</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/2</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.federicadalessandroavvocato.it/approfondimenti/4</loc>
+    <priority>0.5</priority>
+  </url>
 </urlset>

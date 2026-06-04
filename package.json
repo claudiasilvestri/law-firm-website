@@ -1,11 +1,12 @@
-{
+ {
   "name": "avvocato-site",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "generate-sitemap": "node scripts/generate-sitemap.js",
+    "build": "npm run generate-sitemap && vite build",
     "preview": "vite preview",
     "lint": "eslint ."
   },
