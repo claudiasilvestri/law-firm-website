@@ -1,4 +1,100 @@
 export const articles = [
+
+  {
+  id: 20,
+  title: "Composizione negoziata della crisi d’impresa: come funziona",
+  date: "30 Giugno 2026",
+  meta: "Scopri come funziona la composizione negoziata della crisi d’impresa e quando può essere utilizzata per favorire il risanamento aziendale.",
+  description: "Scopri come funziona la composizione negoziata della crisi d’impresa e quando può essere utilizzata per favorire il risanamento aziendale.",
+  image: "/images/articles/gestione-crisi-negoziazione.png",
+  imageCard: "/images/cards/gestione-crisi-negoziazione.png",
+  alt: "Illustrazione composizione negoziata della crisi d'impresa",
+  content: `
+<h2>Composizione negoziata della crisi d’impresa: come funziona</h2>
+
+<p>
+Quando un’impresa attraversa una fase di difficoltà economica, intervenire tempestivamente è fondamentale per evitare che la situazione diventi irreversibile.
+</p>
+
+<p>
+Tra gli strumenti previsti dalla normativa italiana per affrontare la crisi aziendale vi è la <strong>composizione negoziata della crisi d’impresa</strong>, una procedura che consente all’imprenditore di tentare il risanamento dell’attività attraverso una trattativa con i creditori.
+</p>
+
+<p>
+La composizione negoziata è uno strumento introdotto per aiutare le imprese che si trovano in una situazione di squilibrio economico o finanziario ma che hanno ancora prospettive di continuità.
+</p>
+
+<p>
+La procedura consente all’imprenditore di avviare un percorso assistito da un <strong>esperto indipendente</strong>, che facilita il dialogo con i creditori e aiuta a individuare possibili soluzioni.
+</p>
+
+<h3>Quando può essere utilizzata</h3>
+
+<p>
+La composizione negoziata può essere avviata quando l’impresa si trova in una situazione di difficoltà che potrebbe evolvere in una crisi o in uno stato di insolvenza.
+</p>
+
+<p>
+Intervenire nelle fasi iniziali della difficoltà aumenta le possibilità di trovare soluzioni efficaci e di evitare procedure più invasive.
+</p>
+
+<h3>Il ruolo dell’esperto indipendente</h3>
+
+<p>
+Uno degli elementi centrali della procedura è la figura dell’esperto indipendente.
+</p>
+
+<p>
+Questo professionista ha il compito di:
+</p>
+
+<ul>
+<li>analizzare la situazione economica dell’impresa;</li>
+<li>facilitare le trattative con i creditori;</li>
+<li>individuare possibili soluzioni di risanamento.</li>
+</ul>
+
+<p>
+L’obiettivo è favorire un accordo che consenta all’impresa di proseguire l’attività.
+</p>
+
+<h3>Possibili soluzioni</h3>
+
+<p>
+Durante la composizione negoziata possono essere individuate diverse soluzioni per il superamento della crisi.
+</p>
+
+<p>
+Ad esempio:
+</p>
+
+<ul>
+<li>ristrutturazione dei debiti;</li>
+<li>accordi con i creditori;</li>
+<li>riorganizzazione dell’attività aziendale.</li>
+</ul>
+
+<p>
+Queste soluzioni consentono di affrontare le difficoltà in modo più strutturato e con il coinvolgimento delle parti interessate.
+</p>
+
+<h3>L’importanza di agire tempestivamente</h3>
+
+<p>
+Uno degli aspetti più importanti nella gestione della crisi d’impresa è la tempestività.
+</p>
+
+<p>
+Individuare per tempo i segnali di difficoltà e ricorrere agli strumenti previsti dalla legge può fare la differenza tra il risanamento dell’impresa e l’avvio di procedure più complesse.
+</p>
+
+<p>
+Per questo motivo è fondamentale valutare la situazione con l’assistenza di professionisti esperti in materia di crisi aziendale.
+</p>
+`
+},
+
+
 {
   id: 19,
   title: "Revisione dei contratti commerciali: perché è importante aggiornarli",
