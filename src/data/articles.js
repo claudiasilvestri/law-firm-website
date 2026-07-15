@@ -1,5 +1,88 @@
 export const articles = [
 
+{
+  id: 21,
+  title: "Controversie tra soci: come gestire i conflitti nelle società",
+  date: "15 Luglio 2026",
+  meta: "Scopri come affrontare le controversie tra soci e quali strumenti giuridici possono aiutare a risolvere i conflitti societari.",
+  description: "Scopri come affrontare le controversie tra soci e quali strumenti giuridici possono aiutare a risolvere i conflitti societari.",
+  image: "/images/articles/controversie-societarie.png",
+  imageCard: "/images/cards/controversie-societarie.png",
+  alt: "Illustrazione controversie tra soci",
+  content: `
+<h2>Controversie tra soci: come gestire i conflitti nelle società</h2>
+
+<p>
+Le controversie tra soci possono compromettere la stabilità di una società e influire negativamente sulla gestione dell’impresa.
+</p>
+
+<p>
+Quando sorgono conflitti è fondamentale individuare strumenti giuridici adeguati per risolvere la situazione e tutelare la continuità dell’attività aziendale.
+</p>
+
+<h3>Cause delle controversie societarie</h3>
+
+<p>
+I conflitti tra soci possono derivare da diversi fattori.
+</p>
+
+<p>
+Tra i più comuni vi sono:
+</p>
+
+<ul>
+<li>divergenze sulla gestione della società;</li>
+<li>distribuzione degli utili;</li>
+<li>violazione degli accordi societari;</li>
+<li>esclusione di un socio dalle decisioni aziendali.</li>
+</ul>
+
+<p>
+Queste situazioni possono generare tensioni che incidono sulla continuità dell’attività e sulla corretta amministrazione della società.
+</p>
+
+<h3>Strumenti per risolvere i conflitti</h3>
+
+<p>
+Le controversie tra soci possono essere affrontate attraverso diversi strumenti, valutando di volta in volta la soluzione più adatta al caso concreto.
+</p>
+
+<p>
+Tra i principali:
+</p>
+
+<ul>
+<li>negoziazione tra le parti;</li>
+<li>mediazione civile;</li>
+<li>azione giudiziaria.</li>
+</ul>
+
+<p>
+La scelta della soluzione dipende dalla natura del conflitto, dagli interessi coinvolti e dagli obiettivi che i soci intendono perseguire.
+</p>
+
+<h3>Prevenzione delle controversie</h3>
+
+<p>
+Uno degli strumenti più efficaci per prevenire i conflitti è rappresentato da accordi societari chiari e ben strutturati.
+</p>
+
+<p>
+Statuti e <strong>patti parasociali</strong> consentono di definire regole precise per la gestione della società, disciplinare i rapporti tra i soci e ridurre il rischio di future controversie.
+</p>
+
+<h3>L'importanza dell'assistenza legale</h3>
+
+<p>
+Affrontare tempestivamente una controversia societaria consente spesso di limitare le conseguenze economiche e organizzative del conflitto.
+</p>
+
+<p>
+L'assistenza di un professionista permette di valutare la strategia più adeguata, favorire una soluzione condivisa quando possibile e tutelare i diritti dei soci nelle eventuali fasi giudiziali.
+</p>
+`
+},
+
   {
   id: 20,
   title: "Composizione negoziata della crisi d’impresa: come funziona",
