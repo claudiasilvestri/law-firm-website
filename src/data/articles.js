@@ -1,4 +1,81 @@
 export const articles = [
+  {
+  id: 22,
+  title: "Decreto ingiuntivo: come funziona il recupero giudiziale dei crediti",
+  date: "28 Luglio 2026",
+  meta: "Scopri come funziona il decreto ingiuntivo e quando può essere utilizzato per il recupero giudiziale dei crediti.",
+  description: "Scopri come funziona il decreto ingiuntivo e quando può essere utilizzato per il recupero giudiziale dei crediti.",
+  image: "/images/articles/decreto-ingiuntivo.png",
+  imageCard: "/images/cards/decreto-ingiuntivo.png",
+  alt: "Illustrazione decreto ingiuntivo per il recupero dei crediti",
+  content: `
+<h2>Decreto ingiuntivo: come funziona il recupero giudiziale dei crediti</h2>
+
+<p>
+Il <strong>decreto ingiuntivo</strong> rappresenta uno degli strumenti più utilizzati per il recupero giudiziale dei crediti.
+</p>
+
+<p>
+Si tratta di una procedura che consente al creditore di ottenere rapidamente un titolo esecutivo nei confronti del debitore, quando il credito è adeguatamente documentato.
+</p>
+
+<h3>Quando si può richiedere</h3>
+
+<p>
+Il decreto ingiuntivo può essere richiesto quando il credito è:
+</p>
+
+<ul>
+<li><strong>certo</strong>;</li>
+<li><strong>liquido</strong>;</li>
+<li><strong>esigibile</strong>.</li>
+</ul>
+
+<p>
+Viene spesso utilizzato in presenza di fatture non pagate o di altri documenti che dimostrano l'esistenza del credito.
+</p>
+
+<h3>Come funziona la procedura</h3>
+
+<p>
+Il creditore presenta una richiesta al giudice allegando la documentazione che prova il credito.
+</p>
+
+<p>
+Se il giudice ritiene fondata la richiesta, emette il <strong>decreto ingiuntivo</strong>, con il quale ordina al debitore di provvedere al pagamento entro il termine previsto dalla legge.
+</p>
+
+<h3>Le azioni successive</h3>
+
+<p>
+Se il debitore non adempie entro il termine stabilito, il creditore può avviare le procedure esecutive previste dall'ordinamento.
+</p>
+
+<p>
+Tra le principali:
+</p>
+
+<ul>
+<li>pignoramento del conto corrente;</li>
+<li>pignoramento dello stipendio;</li>
+<li>pignoramento di beni mobili o immobili.</li>
+</ul>
+
+<p>
+Queste procedure consentono al creditore di avviare il recupero forzato delle somme dovute quando il debitore non adempie spontaneamente.
+</p>
+
+<h3>L'importanza dell'assistenza legale</h3>
+
+<p>
+Valutare tempestivamente la possibilità di richiedere un <strong>decreto ingiuntivo</strong> permette spesso di recuperare il credito in tempi più rapidi rispetto ad altre procedure.
+</p>
+
+<p>
+L'assistenza di un professionista consente di verificare la sussistenza dei presupposti richiesti dalla legge, predisporre correttamente la documentazione e individuare la strategia più efficace per la tutela del credito.
+</p>
+`
+},
 
 {
   id: 21,
