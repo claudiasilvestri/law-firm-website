@@ -1,4 +1,95 @@
 export const articles = [
+{
+  id: 23,
+  title: "Diffida ad adempiere: quando utilizzarla nei contratti",
+  date: "10 Agosto 2026",
+  meta: "Scopri quando utilizzare la diffida ad adempiere e quali effetti può produrre in caso di inadempimento contrattuale.",
+  description: "Scopri quando utilizzare la diffida ad adempiere e quali effetti può produrre in caso di inadempimento contrattuale.",
+  image: "/images/articles/diffida-adempiere.png",
+  imageCard: "/images/cards/diffida-adempiere.png",
+  alt: "Illustrazione diffida ad adempiere nei contratti",
+  content: `
+<h2>Diffida ad adempiere: quando utilizzarla nei contratti</h2>
+
+<p>
+Nei rapporti contrattuali può accadere che una delle parti non rispetti gli obblighi previsti dal contratto. Ritardi nei pagamenti, mancata consegna di beni o servizi non conformi sono situazioni che possono creare difficoltà economiche e generare controversie.
+</p>
+
+<p>
+Tra gli strumenti previsti dalla legge per affrontare queste situazioni vi è la <strong>diffida ad adempiere</strong>, un atto formale che consente di invitare la controparte a rispettare gli obblighi contrattuali entro un termine preciso.
+</p>
+
+<h3>Cos’è la diffida ad adempiere</h3>
+
+<p>
+La diffida ad adempiere è una comunicazione formale con cui una parte invita l’altra a eseguire la prestazione dovuta entro un determinato periodo di tempo.
+</p>
+
+<p>
+Attraverso questo strumento il creditore concede un ultimo termine al debitore per adempiere agli obblighi previsti dal contratto.
+</p>
+
+<p>
+Se il termine indicato nella diffida decorre senza che la prestazione venga eseguita, possono prodursi gli effetti previsti dalla legge in relazione alla risoluzione del contratto.
+</p>
+
+<h3>Quando può essere utilizzata</h3>
+
+<p>
+La diffida ad adempiere può essere utilizzata in diverse situazioni di inadempimento contrattuale.
+</p>
+
+<p>
+Ad esempio nei casi di:
+</p>
+
+<ul>
+<li>mancato pagamento di somme dovute;</li>
+<li>ritardi nella consegna di beni o servizi;</li>
+<li>mancata esecuzione delle prestazioni contrattuali;</li>
+<li>violazione di obblighi previsti dal contratto.</li>
+</ul>
+
+<p>
+Questo strumento consente di formalizzare la richiesta di adempimento e di tutelare la posizione della parte che subisce l’inadempimento.
+</p>
+
+<h3>Gli effetti della diffida</h3>
+
+<p>
+La diffida ad adempiere può produrre effetti giuridici rilevanti.
+</p>
+
+<p>
+Se la parte inadempiente non esegue la prestazione entro il termine stabilito, possono prodursi gli effetti previsti dalla legge in relazione alla risoluzione del contratto.
+</p>
+
+<p>
+La parte che ha subito l’inadempimento può inoltre valutare la possibilità di agire per ottenere il risarcimento degli eventuali danni subiti.
+</p>
+
+<h3>L’importanza di una diffida correttamente redatta</h3>
+
+<p>
+Affinché la diffida produca effetti giuridici è importante che venga redatta in modo chiaro e conforme alla normativa.
+</p>
+
+<p>
+La comunicazione deve indicare:
+</p>
+
+<ul>
+<li>l’obbligo contrattuale non rispettato;</li>
+<li>il termine entro cui adempiere;</li>
+<li>le conseguenze del mancato adempimento.</li>
+</ul>
+
+<p>
+Una <strong>diffida formulata correttamente</strong> rappresenta uno strumento efficace per tutelare i propri diritti e per gestire in modo più strutturato le controversie contrattuali.
+</p>
+`
+},
+
   {
   id: 22,
   title: "Decreto ingiuntivo: come funziona il recupero giudiziale dei crediti",
