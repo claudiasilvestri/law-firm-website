@@ -1,5 +1,101 @@
 export const articles = [
+  
+  {
+  id: 24,
+  title: "Errore diagnostico: quando nasce la responsabilità medica",
+  date: "31 Agosto 2026",
+  meta: "Scopri quando un errore diagnostico può comportare una responsabilità medica e quali elementi devono essere valutati per richiedere un risarcimento.",
+  description: "Scopri quando un errore diagnostico può comportare una responsabilità medica e quali elementi devono essere valutati per richiedere un risarcimento.",
+  image: "/images/articles/errore-diagnostico.png",
+  imageCard: "/images/cards/errore-diagnostico.png",
+  alt: "Illustrazione errore diagnostico e responsabilità medica",
+  content: `
+<h2>Errore diagnostico: quando nasce la responsabilità medica</h2>
+
+<p>
+L’errore diagnostico rappresenta una delle situazioni più frequenti nei casi di <strong>responsabilità medica</strong>. Una diagnosi errata o tardiva può infatti ritardare l’inizio delle cure appropriate e causare conseguenze rilevanti per la salute del paziente.
+</p>
+
+<p>
+Quando l’errore del medico provoca un danno, il paziente può avere diritto a richiedere un risarcimento.
+</p>
+
+<h3>Cos’è l’errore diagnostico</h3>
+
+<p>
+Si parla di errore diagnostico quando il medico non individua correttamente la patologia del paziente oppure formula una diagnosi sbagliata.
+</p>
+
+<p>
+Questo può accadere in diverse circostanze, ad esempio quando:
+</p>
+
+<ul>
+<li>non vengono prescritti esami necessari;</li>
+<li>gli esami diagnostici non vengono interpretati correttamente;</li>
+<li>la diagnosi viene formulata con ritardo;</li>
+<li>non vengono valutati adeguatamente i sintomi del paziente.</li>
+</ul>
+
+<p>
+In queste situazioni la diagnosi errata può compromettere l’efficacia delle cure.
+</p>
+
+<h3>Quando il medico è responsabile</h3>
+
+<p>
+Non ogni errore diagnostico comporta automaticamente una responsabilità medica. Per ottenere un risarcimento è necessario dimostrare alcuni elementi fondamentali.
+</p>
+
+<p>
+In particolare, occorre provare:
+</p>
+
+<ul>
+<li>l’esistenza di un errore nella diagnosi;</li>
+<li>il danno subito dal paziente;</li>
+<li>il nesso causale tra errore e danno.</li>
+</ul>
+
+<p>
+Questi aspetti vengono generalmente accertati attraverso una valutazione medico-legale.
+</p>
+
+<h3>Le conseguenze di una diagnosi errata</h3>
+
+<p>
+Un errore diagnostico può avere diverse conseguenze per il paziente.
+</p>
+
+<p>
+Tra le più frequenti vi sono:
+</p>
+
+<ul>
+<li>ritardo nelle cure appropriate;</li>
+<li>aggravamento della patologia;</li>
+<li>interventi terapeutici non necessari;</li>
+<li>peggioramento delle condizioni di salute.</li>
+</ul>
+
+<p>
+In presenza di tali situazioni può essere possibile richiedere il risarcimento dei danni.
+</p>
+
+<h3>Come tutelarsi</h3>
+
+<p>
+Quando si sospetta un caso di errore diagnostico è importante raccogliere tutta la documentazione sanitaria disponibile, come referti, cartelle cliniche ed esami effettuati.
+</p>
+
+<p>
+Una valutazione preliminare del caso da parte di professionisti esperti consente di verificare se vi siano i presupposti per avviare un’azione legale finalizzata al risarcimento del danno.
+</p>
+`
+},
+
 {
+
   id: 23,
   title: "Diffida ad adempiere: quando utilizzarla nei contratti",
   date: "10 Agosto 2026",
