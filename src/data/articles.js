@@ -1604,15 +1604,15 @@ In presenza di mancati pagamenti, è importante non sottovalutare la situazione.
 },
 
 {
-id: 7,
-title: "Inadempimento contrattuale: cosa fare quando una parte non rispetta il contratto",
-date: "15 Dicembre 2025",
-meta: "Scopri cosa fare in caso di inadempimento contrattuale, quali strumenti legali utilizzare e gli errori da evitare per tutelare i tuoi diritti.",
-description: "Scopri cosa fare in caso di inadempimento contrattuale, quali strumenti legali utilizzare e gli errori da evitare per tutelare i tuoi diritti.",
-image: "/images/articles/inadempimento-contrattuale.png",
-imageCard: "/images/cards/inadempimento-contrattuale.png",
-alt: "Illustrazione inadempimento contrattuale",
-content: `
+  id: 7,
+  title: "Inadempimento contrattuale: cosa fare quando una parte non rispetta il contratto",
+  date: "15 Dicembre 2025",
+  meta: "Inadempimento contrattuale: scopri quali strumenti di tutela puoi utilizzare, come documentare il mancato rispetto del contratto e quali errori evitare.",
+  description: "Inadempimento contrattuale: scopri quali strumenti di tutela puoi utilizzare, come documentare il mancato rispetto del contratto e quali errori evitare.",
+  image: "/images/articles/inadempimento-contrattuale.png",
+  imageCard: "/images/cards/inadempimento-contrattuale.png",
+  alt: "Illustrazione inadempimento contrattuale",
+  content: `
 <h2>Inadempimento contrattuale: cosa fare quando una parte non rispetta il contratto</h2>
 
 <p>
